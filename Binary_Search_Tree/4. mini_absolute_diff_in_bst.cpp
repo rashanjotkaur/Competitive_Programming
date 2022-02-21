@@ -1,4 +1,5 @@
 // Minimum Absolute Difference in BST
+// Link: https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 
 // Method 1 - Time Complexity O(n)
 //            Space Complexity O(n)
@@ -24,5 +25,30 @@ int getMinimumDifference(TreeNode *root)
 }
 
 
+
 // Method 2 - Time Complexity O(n)
 //            No Space Complexity
+void inorder(TreeNode *root, TreeNode *&prev, int &mini)
+{
+    if (root == NULL)
+        return;
+
+    inorder(root->left, prev, mini);
+
+    if (prev)
+    {
+        int diff = abs(prev->val - root->val);
+        mini = min(mini, diff);
+        // cout<<prev->val<<" "<<root->val<<endl;
+    }
+    prev = root;
+
+    inorder(root->right, prev, mini);
+}
+int getMinimumDifference(TreeNode *root)
+{
+    int mini = INT_MAX;
+    TreeNode *prev = NULL;
+    inorder(root, prev, mini);
+    return mini;
+}
