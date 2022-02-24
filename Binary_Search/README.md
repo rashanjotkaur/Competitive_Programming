@@ -12,4 +12,10 @@
 4. *Intersection of Two Arrays
    https://leetcode.com/problems/intersection-of-two-arrays/
 
-5. 
+5. *Intersection of Two Arrays II (Similar to Problem 4)
+   https://leetcode.com/problems/intersection-of-two-arrays-ii/
+
+6. Valid Perfect Square (Similar to Problem 2)
+   https://leetcode.com/problems/valid-perfect-square/
+
+7. Guess Number Higher or Lower
