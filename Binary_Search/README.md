@@ -18,4 +18,12 @@
 6. Valid Perfect Square (Similar to Problem 2)
    https://leetcode.com/problems/valid-perfect-square/
 
-7. Guess Number Higher or Lower
+7. *Guess Number Higher or Lower
+   https://leetcode.com/problems/guess-number-higher-or-lower
+
+8. *Arranging Coins
+   https://leetcode.com/problems/arranging-coins/
+
+9. Find Smallest Letter Greater Than Target  
+   https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+   
