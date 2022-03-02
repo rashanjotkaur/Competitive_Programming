@@ -25,5 +25,7 @@
    https://leetcode.com/problems/arranging-coins/
 
 9. Find Smallest Letter Greater Than Target  
-   https://leetcode.com/problems/find-smallest-letter-greater-than-target/
-   
+   https://leetcode.com/problems/find-smallest-letter-greater-than-target/  
+
+10. Fair Candy Swap
+    https://leetcode.com/problems/fair-candy-swap/
