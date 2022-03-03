@@ -33,4 +33,8 @@
 11. The K Weakest Rows in a Matrix
     https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
 
-12. 
+12. Check If N and Its Double Exist
+    https://leetcode.com/problems/check-if-n-and-its-double-exist/
+
+13. Count Negative Numbers in a Sorted Matrix
+    
