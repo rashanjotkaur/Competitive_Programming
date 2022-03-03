@@ -29,3 +29,8 @@
 
 10. Fair Candy Swap
     https://leetcode.com/problems/fair-candy-swap/
+
+11. The K Weakest Rows in a Matrix
+    https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
+
+12. 
