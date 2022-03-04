@@ -42,4 +42,5 @@
 14. Find the Distance Value Between Two Arrays
     https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
 
-15. 
+15. Kth Missing Positive Number
+    https://leetcode.com/problems/kth-missing-positive-number/
