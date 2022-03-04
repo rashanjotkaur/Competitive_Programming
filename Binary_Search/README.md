@@ -39,4 +39,7 @@
 13. Count Negative Numbers in a Sorted Matrix
     https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
    
-14. 
+14. Find the Distance Value Between Two Arrays
+    https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
+
+15. 
