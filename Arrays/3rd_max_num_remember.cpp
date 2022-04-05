@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/third-maximum-number/
 
+// Here, we used LONG_MIN --> instead of INT_MIN (Remember)
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
