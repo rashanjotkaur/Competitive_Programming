@@ -21,3 +21,6 @@ public:
         return ans;
     }
 };
+
+// Time Complexity :- BigO(N)
+// Space Complexity :- BigO(1)
