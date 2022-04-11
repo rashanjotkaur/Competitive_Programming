@@ -1,3 +1,4 @@
+// https://practice.geeksforgeeks.org/problems/multiply-2-matrices4144/1/#
 // mat1 = r1 * c1
 // mat2 = r2 * c2
 // for matrix multiplication => c1=r2
