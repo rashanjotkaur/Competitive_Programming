@@ -1,9 +1,9 @@
 // Determine Whether Matrix Can Be Obtained By Rotation
 // https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/
 
-// Logice is same in both codes, only way of writing is different
+// Logic is same in both codes, only way of writing is different.
 
-// Way 1 of Writing 
+// Way 1 of Writing.
 class Solution {
 public:
     bool findRotation(vector<vector<int>>& mat, vector<vector<int>>& target) {
@@ -57,7 +57,7 @@ public:
     }
 };
 
-// Way 2 of writing - in Compact form 
+// Way 2 of writing - in Compact form.
 class Solution {
 public:
     bool findRotation(vector<vector<int>>& mat, vector<vector<int>>& target) {
