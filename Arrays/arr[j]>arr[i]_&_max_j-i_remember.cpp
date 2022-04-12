@@ -1,7 +1,7 @@
 // https://practice.geeksforgeeks.org/problems/maximum-index3307/1/#
 
 
-// Method 2: O(n) Efficient Solution
+// Method 1: O(n) Efficient Solution
 int maxIndexDiff(int arr[], int n) {
         vector <int> LMin(n); 
         vector <int> RMax(n);
@@ -24,5 +24,18 @@ int maxIndexDiff(int arr[], int n) {
                 i++;
         }
      
+        return maxDiff;
+}
+
+
+// Method 2: O(n^2)
+int maxIndexDiff(int arr[], int n) {
+        int maxDiff=0;
+        for(int i=0;i<n;i++){
+            for(int j=n-1;j>i;j--){
+                if(arr[j]>=arr[i] && maxDiff<j-i)
+                    maxDiff=j-i;
+            }
+        } 
         return maxDiff;
 }
