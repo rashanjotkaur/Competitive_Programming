@@ -1,5 +1,30 @@
-#include <bits/stdc++.h>
-using namespace std;
+
+// Method 1: O(n^2)
+
+class Solution {
+public:
+    void subarraySum(vector<int>& nums, int k) {
+        int n=nums.size();
+        int currSum;
+        int count=0;
+        for(int i=0;i<n;i++){
+            currSum=nums[i];
+            for(int j=i+1;j<=n;j++){
+                // cout<<"currSum: "<<currSum<<endl;;
+                if(currSum==k){
+                    cout<<"i: "<<i<<"  j: "<<j-1<<endl;
+                }
+                if(currSum>k || j==n)
+                    break;
+                currSum=currSum+nums[j];
+            }
+        }
+    }
+};
+
+
+// Method 2: Important using unordered_map - O(n)
+
 void subarraySum(int arr[],int n,int sum){
     int currSum=0,maxLen;
     unordered_map <int,int> ump;
@@ -9,28 +34,20 @@ void subarraySum(int arr[],int n,int sum){
             cout<<"0"<<" "<<i<<endl;
             return ;
         }
-        if(ump.find(currSum)==ump.end())
-            ump[currSum]=i;
+	//currSum=sum+x;
+        //0----i----j
+        //  x    sum
+        //ump[x]=i
+        //so, sum --> i+1 to j
+        //and i=ump[x], so sum --> ump[x]+1 to j
         if(ump.find(currSum-sum)!=ump.end()){
             cout<<ump[currSum-sum]+1<<" "<<i<<endl;
             return ;
         }
+	ump[currSum]=i;
     }
 }
-int main() {
-	int t;
-	cin>>t;
-	while(t--){
-	    int n,sum;
-	    cin>>n>>sum;
-	    int arr[n];
-	    for(int i=0;i<n;i++)
-	        cin>>arr[i];
-	    subarraySum(arr,n,sum);
-	}
-	return 0;
-}
+
 // Input
-// 1
 // 5 -20
 // 10 2 -2 -20 10
