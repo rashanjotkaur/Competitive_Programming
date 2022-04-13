@@ -1,9 +1,9 @@
-// Print all the subarrays with sum=k
 // https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/
 // No practice question for this.
 
-// Method 1: O(n^2)
 
+// Method 1: O(n^2)
+// Print all the subarrays with sum=k
 class Solution {
 public:
     void subArraySum(int arr[], int n, int k){
@@ -22,10 +22,22 @@ public:
     }
 };
 
+// Input
+// 0 0 0
+// k=0
+// Output
+// 6
+// i: 0  j: 0
+// i: 0  j: 1
+// i: 0  j: 2
+// i: 1  j: 1
+// i: 1  j: 2
+// i: 2  j: 2
+
 
 
 // Method 2: Important using unordered_map - O(n)
-
+// Will not be able to print all subarrays as but we will be able to find the subarray which has sum equal to given sum...
 void subArraySum(int arr[], int n, int sum){
         int currSum=0;
 	int maxLen;
