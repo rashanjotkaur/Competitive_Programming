@@ -11,9 +11,8 @@ public:
             currSum=nums[i];
             for(int j=i+1;j<=n;j++){
                 // cout<<"currSum: "<<currSum<<endl;;
-                if(currSum==k){
+                if(currSum==k)
                     cout<<"i: "<<i<<"  j: "<<j-1<<endl;
-                }
                 if(currSum>k || j==n)
                     break;
                 currSum=currSum+nums[j];
