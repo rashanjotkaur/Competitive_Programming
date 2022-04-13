@@ -1,3 +1,8 @@
+// Important:
+// 1. To find all subarrays with given sum -- use method 1
+// 2. To check if any subarray with given sum is present or not -- use method 2
+
+
 // https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/
 // No practice question for this.
 
