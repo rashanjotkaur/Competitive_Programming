@@ -1,3 +1,6 @@
+// Important:
+// 1. If negatives integers are also present --- we can use Method 1, but we can't use Method 2 
+
 // https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1/#
 
 // For Positive intergers only.....
