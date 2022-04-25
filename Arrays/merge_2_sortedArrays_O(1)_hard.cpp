@@ -86,4 +86,46 @@ void merge(long long arr1[], long long arr2[], int n, int m) {
 }
 
 
-// Method 4 -
+// Method 4 - O((n+m)*log(n+m)) - Best Method
+class solution{
+     public:
+        //Function to merge the arrays.
+        int nextGap(int total){
+            if(total<=1)
+                return 0;
+            return total/2 + total%2;
+        }
+        void merge(long long arr1[], long long arr2[], int n, int m) { 
+            // n = 4, arr1[] = [1 3 5 7]   --> i
+            // m = 3, arr2[] = [0 2 4] --> j
+            int i, j, gap = n + m;
+            for(gap=nextGap(gap); gap>0; gap=nextGap(gap)){
+                // comparing elements in the first array.
+                for(i = 0; i + gap < n; i++)
+                    if (arr1[i] > arr1[i + gap])
+                        swap(arr1[i], arr1[i + gap]);
+         
+                int x;
+                if(gap>n)
+                    x=gap-n;
+                else
+                    x=0;
+                    
+                // comparing elements in both arrays.
+                j=x;
+                while(i<n && j<m){
+                    if (arr1[i] > arr2[j])
+                        swap(arr1[i], arr2[j]);
+                    i++;
+                    j++;
+                }
+         
+                if (j < m) {
+                    // comparing elements in the second array.
+                    for (j = 0; j + gap < m; j++)
+                        if (arr2[j] > arr2[j + gap])
+                            swap(arr2[j], arr2[j + gap]);
+                }
+            }
+        } 
+};
