@@ -32,3 +32,58 @@ void merge(long long arr1[], long long arr2[], int n, int m) {
 
 
 
+// Method 2 - O(nlog(n) + mlog(m))
+// Algorithm
+// 1) Initialize i,j,k as 0,0,n-1 where n is size of arr1 
+// 2) Iterate through every element of arr1 and arr2 using two pointers i and j respectively
+//     if arr1[i] is less than arr2[j]
+//         increment i
+//     else
+//         swap the arr2[j] and arr1[k]
+//         increment j and decrement k
+// 3) Sort both arr1 and arr2 
+
+void merge(long long arr1[], long long arr2[], int n, int m) { 
+            // n = 4, arr1[] = [1 3 5 7]   --> i
+            // m = 3, arr2[] = [0 2 4] --> j
+            int i=0,j=0,k=n-1;
+            while(i<=k && j<m){
+                if(arr1[i]<arr2[j])
+                    i++;
+                else{
+                    swap(arr1[k],arr2[j]);
+                    k--;
+                    j++;
+                }
+            }
+            sort(arr1,arr1+n);
+            sort(arr2,arr2+m);
+} 
+
+// Time Complexity: The time complexity while traversing the arrays in while loop is O(n+m) in worst case and sorting is O(nlog(n) + mlog(m)). 
+// So overall time complexity of the code becomes O((n+m)log(n+m)).
+
+
+// Method 3 - Prefer method2 over this
+// Algorithm:
+// 1) Initialize i with 0
+// 2) Iterate while loop until last element of array 1 is greater than first element of array 2
+//           if arr1[i] greater than first element of arr2
+//               swap arr1[i] with arr2[0]
+//               sort arr2
+//           incrementing i 
+void merge(long long arr1[], long long arr2[], int n, int m) { 
+            // n = 4, arr1[] = [1 3 5 7]   --> i
+            // m = 3, arr2[] = [0 2 4] --> j
+            int i=0;
+            while(arr1[n-1]>arr2[0]){
+               if(arr1[i]>arr2[0]){
+                   swap(arr1[i],arr2[0]);
+                   sort(arr2,arr2+m);
+               }
+               i++;
+            }
+}
+
+
+// Method 4 -
