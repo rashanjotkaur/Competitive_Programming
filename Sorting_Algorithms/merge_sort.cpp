@@ -76,7 +76,7 @@ public:
 
 
 
-// Without using extra space
+// Algorithm is same, only merge function is written in different way.
 class Solution {
 public:
     void merge(vector <int> &nums, int l, int mid, int r){
