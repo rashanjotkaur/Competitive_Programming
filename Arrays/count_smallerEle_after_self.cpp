@@ -69,3 +69,72 @@ vector<int> countSmaller(vector<int>& nums) {
         
         return fre;    
 }
+
+
+
+
+
+// Method 4-O(nlogn)-Best Method-Using merge sort in descending order....
+class Solution {
+public:
+    void merge(vector <int> &count, vector <pair<int, int>> &vec, int l, int mid, int r){
+        int n=r-l+1;
+        vector <pair<int, int>> temp(n);
+        
+        int i = l;
+        int j = mid + 1;
+        int k = 0;
+
+        while(i<=mid && j<=r){
+            
+            //sorting in descending order
+            if (vec[i].first <= vec[j].first){
+                temp[k] = vec[j];
+                k++;
+                j++;
+            }
+            else{
+                //since, sorting is in descending order, hence elements on right are smaller
+                count[vec[i].second] += r - j + 1;
+                temp[k] = vec[i];
+                k++;
+                i++;
+            }
+        }
+
+        while(i<=mid){
+            temp[k] = vec[i];
+            k++;
+            i++;
+        }
+        while(j<=r){
+            temp[k] = vec[j];
+            k++;
+            j++;
+        }
+        
+        for (int i=l;i<=r;i++)
+            vec[i]=temp[i-l];
+    }
+
+    void mergeSort(vector<int> &count, vector <pair<int, int>> &vec, int l, int r){
+        if(r>l){
+            int mid = l+(r-l)/2;
+            mergeSort(count,vec,l,mid);
+            mergeSort(count,vec,mid+1,r);
+            merge(count,vec,l,mid,r);
+        }
+    }
+
+    vector<int> countSmaller(vector<int> &nums){
+        int n=nums.size();
+        vector <pair<int, int>> vec;
+        
+        for (int i=0;i<n;i++)
+            vec.push_back(make_pair(nums[i],i));
+        
+        vector <int> count(n,0);
+        mergeSort(count,vec,0,n-1);
+        return count;
+    }
+};
