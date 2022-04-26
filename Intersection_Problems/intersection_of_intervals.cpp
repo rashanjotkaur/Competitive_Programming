@@ -53,3 +53,45 @@ int main() {
 	checkNonOverlappingIntervals(intervals,n);
 	return 0;
 }
+
+
+
+// Method 2 - Without Sorting - Preferred
+#include <bits/stdc++.h>
+using namespace std;
+
+void checkNonOverlappingIntervals(vector <pair<int,int>> intervals, int n){
+	int lmax = intervals[0].first;
+	int rmin = intervals[0].second;
+
+	for(int i=1;i<n;i++){
+	    int l = intervals[i].first;
+	    int r = intervals[i].second;
+	    
+		// If no intersection exists
+		if (l>rmin || r<lmax) { //because they are not ordered so check
+		                     //for both cases...
+			cout<<-1<<endl;
+			return;
+		}
+		// Else update the intersection
+		else {
+			lmax = max(lmax,l);
+			rmin = min(rmin,r);
+		}
+	}
+	cout<<lmax<<" "<<rmin<<endl;
+}
+
+int main() {
+	int n;
+	cin>>n;
+	vector <pair<int,int>> intervals;
+	int x,y;
+	for(int i=0;i<n;i++){
+	    cin>>x>>y;
+	    intervals.push_back(make_pair(x,y));
+	}
+	checkNonOverlappingIntervals(intervals,n);
+	return 0;
+}
