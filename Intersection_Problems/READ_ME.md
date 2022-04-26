@@ -1,0 +1,6 @@
+Problems related to Intersection, Disjoint, Overlapping Intervals.......
+  
+1. The main point to remember is:
+   In case of these problems, we have to sort intervals with respect to their endpoints.....
+     
+  
