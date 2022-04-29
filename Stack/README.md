@@ -2,11 +2,17 @@
 
 Watch Aditya Verma Stack Playlist
 
-#### 1. Next Greater Element to Right(Next Largest Element)
+#### 1. Nearest Greater Element to Right(Next Largest Element)
         https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1/#
 
-#### 2. Next Greater Element to Right if array is Circular
+#### 2. Nearest Greater Element to Right if array is Circular
         https://leetcode.com/problems/next-greater-element-ii/
         
-#### 3. Next Greater Element to Left
+#### 3. Nearest Greater Element to Left
         No Link
+        
+#### 4. Nearest Smaller Element to Left
+        https://www.interviewbit.com/problems/nearest-smaller-element/
+        
+#### 5. Nearest Smaller Element to Right
+        
