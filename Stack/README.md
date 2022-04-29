@@ -7,3 +7,6 @@ Watch Aditya Verma Stack Playlist
 
 #### 2. Next Greater Element to Right if array is Circular
         https://leetcode.com/problems/next-greater-element-ii/
+        
+#### 3. Next Greater Element to Left
+        No Link
