@@ -16,3 +16,6 @@ Watch Aditya Verma Stack Playlist
         
 #### 5. Nearest Smaller Element to Right
         No Link 
+        
+#### 6. Stock Span Problem
+        https://leetcode.com/problems/online-stock-span/
