@@ -29,4 +29,5 @@ Watch Aditya Verma Stack Playlist
 #### 9. Rain Water Trapping
         https://leetcode.com/problems/trapping-rain-water/
         
-#### 10. 
+#### 10. Minimum Element in Stack in O(1)
+         https://leetcode.com/problems/min-stack/
