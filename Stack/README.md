@@ -19,3 +19,6 @@ Watch Aditya Verma Stack Playlist
         
 #### 6. Stock Span Problem
         https://leetcode.com/problems/online-stock-span/
+        
+#### 7. Maximum Area Histogram
+        https://leetcode.com/problems/largest-rectangle-in-histogram/
