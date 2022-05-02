@@ -26,4 +26,7 @@ Watch Aditya Verma Stack Playlist
 #### 8. Maximum Rectangle in Binary Matrix
         https://leetcode.com/problems/maximal-rectangle/
         
-#### 9. 
+#### 9. Rain Water Trapping
+        https://leetcode.com/problems/trapping-rain-water/
+        
+#### 10. 
