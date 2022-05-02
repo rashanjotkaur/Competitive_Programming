@@ -22,3 +22,8 @@ Watch Aditya Verma Stack Playlist
         
 #### 7. Maximum Area Histogram
         https://leetcode.com/problems/largest-rectangle-in-histogram/
+        
+#### 8. Maximum Rectangle in Binary Matrix
+        https://leetcode.com/problems/maximal-rectangle/
+        
+#### 9. 
