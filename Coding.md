@@ -33,3 +33,10 @@
                     s.push(x-y);
                     break;
             }
+            
+#### cin.ignore()
+     1. The cin.ignore() function is used to ignore or clear one or more characters from the input buffer.
+     2. Sometimes we need to clear the unwanted buffer, so when next input is taken, it stores into the desired container, but not in the buffer of previous
+        variable.
+     3. For e.g. Refer to below link
+        https://www.tutorialspoint.com/what-is-the-use-of-cin-ignore-in-cplusplus
