@@ -38,4 +38,11 @@ Watch Aditya Verma Stack Playlist
 #### 12. Implement stack using queue (1 Stack == 1 Queue)
          https://leetcode.com/problems/implement-stack-using-queues/
          
-#### 13. 
+#### 13. Implement queue using priority queue
+         No Link
+
+#### 14. Evaluate Postfix Expression
+         https://leetcode.com/problems/evaluate-reverse-polish-notation/
+
+#### 15. Evaluate Prefix Expression
+         No Link
