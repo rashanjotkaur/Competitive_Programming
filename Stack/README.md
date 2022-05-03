@@ -56,3 +56,15 @@ Watch Aditya Verma Stack Playlist
 #### 18. Infix to Postfix
          https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1/#
          
+#### 19. Prefix to Infix
+         No Link
+      
+#### 20. Prefix to Postfix
+         No Link
+         
+#### 21. Postfix to Infix
+         No Link
+         
+#### 22. Postfix to Prefix
+         No Link
+         
