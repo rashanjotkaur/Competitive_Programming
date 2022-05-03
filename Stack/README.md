@@ -31,3 +31,11 @@ Watch Aditya Verma Stack Playlist
         
 #### 10. Minimum Element in Stack in O(1)
          https://leetcode.com/problems/min-stack/
+
+#### 11. Implement queue using stacks (1 Queue == 2 Stacks)
+         https://leetcode.com/problems/implement-queue-using-stacks/
+         
+#### 12. Implement stack using queue (1 Stack == 1 Queue)
+         https://leetcode.com/problems/implement-stack-using-queues/
+         
+#### 13. 
