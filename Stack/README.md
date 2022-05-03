@@ -46,3 +46,12 @@ Watch Aditya Verma Stack Playlist
 
 #### 15. Evaluate Prefix Expression
          No Link
+         
+#### 16. Evaluate Infix Expression
+         No Link
+         
+#### 17. Basic Calculator (Tricky - Remember)
+         https://leetcode.com/problems/basic-calculator/
+
+#### 18. Infix to Postfix
+         
