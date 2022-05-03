@@ -16,4 +16,20 @@
      2. It returns a non-zero value if it’s a digit else it returns 0. 
      3. For example, it returns a non-zero value for ‘0’ to ‘9’ and zero for others.
      
-#### 
+#### switch-case
+     1. The switch statement evaluates an expression, matching the expression's value to a case clause, and executes statements associated with that case, 
+        as well as statements in cases that follow the matching case.
+            switch(ch){
+                case '*':          //if ch==*
+                    s.push(x*y);
+                    break;
+                case '/':          //if ch==/
+                    s.push(x/y);
+                    break;
+                case '+':          //if ch==+
+                    s.push(x+y);
+                    break;
+                case '-':          //if ch==-
+                    s.push(x-y);
+                    break;
+            }
