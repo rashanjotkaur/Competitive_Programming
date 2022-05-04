@@ -1,5 +1,7 @@
 # Sorting Algorithms
 
+https://www.fullstack.cafe/blog/sorting-algorithms-interview-questions
+
 #### 1. What are Sorting Algorithms?
         Sorting Algorithms are methods of reorganizing a large number of items into some specific order such as highest to lowest, or vice-versa, 
         or even in some alphabetical order.
@@ -89,6 +91,33 @@
                       Pick a random element as pivot.
                       Pick median as pivot.
                
+#### 9. How does merge sort works? 
+        1. Merge sort is one of the most efficient sorting algorithms. 
+        2. It works on the principle of Divide and Conquer. 
+        3. Merge sort repeatedly breaks down a list into several sublists until each sublist consists of a single element and 
+           merging those sublists in a manner that results into a sorted list.
+           
+#### 10. Which sort algorithm works best on mostly sorted data?
+        1. Only a few items: Insertion Sort
+        2. Items are mostly sorted already: Insertion Sort
+        3. Concerned about worst-case scenarios: Heap Sort
+        4. Interested in a good average-case result: Quick Sort
+        5. Items are drawn from a dense universe: Bucket Sort
+        6. Desire to write as little code as possible: Insertion Sort
+        
+#### 11. When is Quicksort better than Mergesort?
+        1. They're both O(n log n) and yet most people use Quicksort instead of Mergesort. Why is that?
+        2. Quicksort has O(n2) worst-case runtime and O(n log n) average case runtime. 
+        3. However, it’s superior to merge sort in many scenarios because many factors influence an algorithm’s runtime, and, when 
+           taking them all together, quicksort wins out.
+        4. Quicksort in particular requires little additional space (it's in-place and MergeSort requires extra memory linear to number of elements to be sorted)           5. It exhibits good cache locality (does half as many reads as the other algorithms), and this makes it faster than merge sort in many cases. 
+        6. In addition, it’s very easy to avoid quicksort’s worst-case run time of O(n2) almost entirely by using an appropriate choice 
+           of the pivot – such as picking it at random (this is an excellent strategy).
+        7. The average case performance for quicksort is faster than mergesort. 
+        8. But this is only true if you are assuming constant time to access any piece of memory on demand. In RAM this assumption is generally 
+           not too bad (it is not always true because of caches, but it is not too bad). However if your data structure is big enough to live on 
+           disk, then quicksort gets killed by the fact that your average disk does something like 200 random seeks per second.
+        9. If data has to be sorted on disk, you really, really want to use some variation of mergesort.
 
 
       
