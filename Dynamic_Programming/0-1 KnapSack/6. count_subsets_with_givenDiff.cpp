@@ -30,10 +30,15 @@ int countSubsetsWithGivenSum(vector <int> nums, int n, int sum){
 }
 
 int countSubsets(vector <int> nums, int n, int diff){
+    int n=nums.size();
     int sum=0;
     for(int i=0;i<n;i++)
-      sum+=nums[i];
-    int s2=(sum-diff)/2;
+        sum+=nums[i];
+    int twice_s2=sum-diff;
+    //since, we have to divide twice_s2/2, if it is odd, then its not possible
+    if(twice_s2%2==1 || twice_s2<0) 
+        return 0;
+    int s2=twice_s2/2;
     return countSubsetsWithGivenSum(nums,n,s2);
 }
 
