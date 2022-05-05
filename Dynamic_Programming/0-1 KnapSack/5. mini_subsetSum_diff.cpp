@@ -1,4 +1,5 @@
 // https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1/#
+// https://www.interviewbit.com/problems/minimum-difference-subsets/
 
 // Method 1:
 public:
