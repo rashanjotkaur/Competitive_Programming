@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/partition-equal-subset-sum/
+// https://www.geeksforgeeks.org/partition-problem-dp-18/
 
 // Similar to Subset Sum Problem
 // Here, We have to divide array into two partitions such that there sum is equal.
