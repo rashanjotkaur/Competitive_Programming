@@ -1,4 +1,5 @@
-// 
+// https://leetcode.com/problems/integer-break/
+// https://www.geeksforgeeks.org/maximum-product-cutting-dp-36/
 
 
 // Method 1 - Recursion - TLE
