@@ -61,3 +61,33 @@ public:
         return sum;
     }
 };
+
+// Method 3-Without using any extra space
+class Solution {
+public:
+    int height(TreeNode *root){
+        if(root==NULL)
+            return 0;
+        int l=height(root->left);
+        int r=height(root->right);
+        return max(l,r)+1;
+    }
+    void deepLeaves(struct TreeNode* root,int &leafSum,int height,int maxHeight){
+        if(root==NULL)
+            return ;
+        if(root->left==NULL && root->right==NULL){
+            if(height==maxHeight-1)
+                leafSum=leafSum+root->val;
+            return ;
+        }
+        deepLeaves(root->left,leafSum,height+1,maxHeight);
+        deepLeaves(root->right,leafSum,height+1,maxHeight);
+    }
+    int deepestLeavesSum(TreeNode* root) {
+        int maxHeight=height(root);
+        // cout<<maxHeight<<endl;
+        int leafSum=0;
+        deepLeaves(root,leafSum,0,maxHeight);
+        return leafSum;
+    }
+};
