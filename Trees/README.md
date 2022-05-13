@@ -1,5 +1,5 @@
 # Tree Problems
-# * - Easy but no able to Remember
+### (*) - Easy but no able to Remember
 
 #### 1. Count all nodes of a Tree
         https://leetcode.com/problems/count-complete-tree-nodes/
@@ -25,5 +25,17 @@
 #### 8. Check if trees are identical or not 
         https://leetcode.com/problems/same-tree/
 
-#### 9. Check if trees are isomorphic
+#### 9. Check if trees are isomorphic *
         https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1#
+
+#### 10. Vertical Order Traversal in a binary tree *
+         https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+         
+#### 11. Symmetric Tree
+         https://leetcode.com/problems/symmetric-tree/
+         
+#### 12. Sum of root to leaf on longest height of tree *
+         https://practice.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1/#
+         
+#### 13. Sum of Root To Leaf Binary Numbers (Binary)
+         https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
