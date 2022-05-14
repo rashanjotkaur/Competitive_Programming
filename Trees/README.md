@@ -79,7 +79,14 @@
 #### 26. Find distance between two nodes of a Binary Tree * 
          https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1/#
          
-#### 27. Find kth Ancestor in a Binary Tree
+#### 27. Find kth Ancestor in a Binary Tree **
          https://practice.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1/#
+         https://leetcode.com/problems/kth-ancestor-of-a-tree-node/   (Hard)
          
-#### 28.          
+#### 28. Number of turns to reach from one node to other in binary tree
+         https://practice.geeksforgeeks.org/problems/number-of-turns-in-binary-tree/1
+         
+#### 29. Binary Tree Coloring Game *** (Hard)
+         https://leetcode.com/problems/binary-tree-coloring-game/
+         
+#### 30.         
