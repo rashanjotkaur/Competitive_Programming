@@ -34,7 +34,7 @@
 #### 11. Symmetric Tree
          https://leetcode.com/problems/symmetric-tree/
          
-#### 12. Sum of root to leaf on longest height of tree *
+#### 12. Sum of Root To Leaf I *
          https://practice.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1/#
          
 #### 13. Sum of Root To Leaf Binary Numbers (Binary)
@@ -46,4 +46,13 @@
 #### 15. Sum of all left leaf nodes
          https://leetcode.com/problems/sum-of-left-leaves/
          
-#### 16. 
+#### 16. Deepest Leaf Nodes Sum
+         https://leetcode.com/problems/deepest-leaves-sum/
+         
+#### 17. Right View
+         https://leetcode.com/problems/binary-tree-right-side-view/
+         
+#### 18. Left View
+         https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1#
+         
+#### 19.          
