@@ -89,4 +89,7 @@
 #### 29. Binary Tree Coloring Game *** (Hard)
          https://leetcode.com/problems/binary-tree-coloring-game/
          
-#### 30.         
+#### 30. Number of turns to reach from one node to another **
+         https://practice.geeksforgeeks.org/problems/number-of-turns-in-binary-tree/1/
+         
+#### 31.          
