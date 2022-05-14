@@ -4,7 +4,10 @@
 // Steps:
 // Step 1: Check if the both a & b exist in tree or not
 // Step 2: If they exist then find the lca
-// Step 3: Then make that lca as a root, and find the distance of a & b from the new root.
+// Step 3: Then make that lca as a root, and find the distance of a & b from the new root. 
+
+// Note: For calculating distance between lca and node --> we calculating the level of that node.
+//       Since, there can be duplicates in the tree, so we have to return the minimum level of given node, as we are finding minimum distance.
 
 // Function - Main
 int findDist(Node* root, int a, int b) {
@@ -21,7 +24,7 @@ int findDist(Node* root, int a, int b) {
 
             // Step 3: 
             int edges1=-1,edges2=-1;
-            findDistNodeLCA(lca,a,b,0,edges1,0,edges2);
+            level(lca,a,b,0,edges1,0,edges2);
             return edges1+edges2;
         }
         else
@@ -74,8 +77,7 @@ Node* lowestCommonAncestor(Node* root,int a,int b){
 
 
 // Function 4 - Finding distance between lowest common ancestor and the given nodes
-void findDistNodeLCA(Node* root, int a, int b, int level1, int &maxLevel1, 
-        int level2, int &maxLevel2){
+void level(Node* root, int a, int b, int level1, int &maxLevel1, int level2, int &maxLevel2){
         if(root==NULL)
             return ;
         if(root->data==a)
@@ -86,6 +88,6 @@ void findDistNodeLCA(Node* root, int a, int b, int level1, int &maxLevel1,
         if(maxLevel1!=-1 && maxLevel2!=-1)
             return ;
             
-        findDistNodeLCA(root->left,a,b,level1+1,maxLevel1,level2+1,maxLevel2);
-        findDistNodeLCA(root->right,a,b,level1+1,maxLevel1,level2+1,maxLevel2);
+        level(root->left,a,b,level1+1,maxLevel1,level2+1,maxLevel2);
+        level(root->right,a,b,level1+1,maxLevel1,level2+1,maxLevel2);
 }
