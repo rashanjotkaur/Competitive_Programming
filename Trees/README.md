@@ -73,4 +73,13 @@
 #### 24. Find Bottom Left Value of Tree
          https://leetcode.com/problems/find-bottom-left-tree-value/
          
-#### 25.          
+#### 25. Lowest Common Ancestor
+         https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+         
+#### 26. Find distance between two nodes of a Binary Tree * 
+         https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1/#
+         
+#### 27. Find kth Ancestor in a Binary Tree
+         https://practice.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1/#
+         
+#### 28.          
