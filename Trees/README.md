@@ -92,4 +92,7 @@
 #### 30. Number of turns to reach from one node to another **
          https://practice.geeksforgeeks.org/problems/number-of-turns-in-binary-tree/1/
          
-#### 31.          
+#### 31. Check if a given tree is Sum Tree **(Method 2 - Tricky)
+         https://practice.geeksforgeeks.org/problems/sum-tree/1
+         
+#### 32.          
