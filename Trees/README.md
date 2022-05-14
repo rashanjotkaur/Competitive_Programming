@@ -55,4 +55,16 @@
 #### 18. Left View
          https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1#
          
-#### 19.          
+#### 19. Zigzag/Spiral Level Order Traversal         
+         https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+         
+#### 20. Cousins in a Binary Tree
+         https://leetcode.com/problems/cousins-in-binary-tree/
+         
+#### 21. All paths in a Binary Tree
+         https://leetcode.com/problems/binary-tree-paths/
+         
+#### 22. Invert Binary Tree
+         https://leetcode.com/problems/invert-binary-tree/
+         
+#### 23.          
