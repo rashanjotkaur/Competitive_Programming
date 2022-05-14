@@ -67,4 +67,10 @@
 #### 22. Invert Binary Tree
          https://leetcode.com/problems/invert-binary-tree/
          
-#### 23.          
+#### 23. Count all Good Nodes
+         https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+
+#### 24. Find Bottom Left Value of Tree
+         https://leetcode.com/problems/find-bottom-left-tree-value/
+         
+#### 25.          
