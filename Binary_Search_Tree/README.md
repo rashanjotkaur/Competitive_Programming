@@ -1,5 +1,6 @@
 # Binary_Search_Tree
 
+## Folder - A
 #### 1. Search Node in Binary Search Tree.
 
 
@@ -30,9 +31,19 @@
 #### 10. Recover Binary Search Tree
          https://leetcode.com/problems/recover-binary-search-tree/
 
-#### 11. All Elements in Two Binary Search Trees *
-         https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 
-#### 12. Construct BST from given preorder traversal
+
+## Folder - B
+#### 1. All Elements in Two Binary Search Trees *
+        https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+
+
+
+## Folder - C
+
+
+
+## Folder - D
+#### 1. Construct BST from given preorder traversal
          https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
          
