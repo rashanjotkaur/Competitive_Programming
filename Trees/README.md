@@ -100,4 +100,12 @@
            
 #### 10. Check if a given tree is Sum Tree **(Method 2 - Tricky)
          https://practice.geeksforgeeks.org/problems/sum-tree/1
+
+
+
+### Folder - D
+#### 1. Balanced Binary Tree
+        https://leetcode.com/problems/balanced-binary-tree/
+
+#### 2. 
        
