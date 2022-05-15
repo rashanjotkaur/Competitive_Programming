@@ -1,5 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/max-sum-in-the-configuration/1/#
 
+// max_i*arr[i] in rotations
 // Method 1: Naive Approach
 int max_sum(int arr[],int n){
     int maxSum=0;
