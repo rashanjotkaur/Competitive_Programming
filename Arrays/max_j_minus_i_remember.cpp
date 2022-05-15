@@ -1,5 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/maximum-index3307/1/#
 
+// arr[j]>arr[i] & max (j-i)
 
 // Method 1: O(n) Efficient Solution
 int maxIndexDiff(int arr[], int n) {
