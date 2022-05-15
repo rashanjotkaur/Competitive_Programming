@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/symmetric-tree/\
+// https://leetcode.com/problems/symmetric-tree/
 
 // Method 1
 class Solution {

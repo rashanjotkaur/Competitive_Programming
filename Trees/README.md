@@ -1,6 +1,9 @@
 # Tree Problems
 ### (*) - Easy but no able to Remember
 
+
+
+### Folder - A
 #### 1. Count all nodes of a Tree
         https://leetcode.com/problems/count-complete-tree-nodes/
         
@@ -30,68 +33,71 @@
 
 #### 10. Vertical Order Traversal in a binary tree *
          https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
-         
-#### 11. Symmetric Tree
-         https://leetcode.com/problems/symmetric-tree/
-         
-#### 12. Sum of Root To Leaf I *
-         https://practice.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1/#
-         
-#### 13. Sum of Root To Leaf Binary Numbers (Binary)
-         https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
-         
-#### 14. Sum of Root To Leaf II
-         https://leetcode.com/problems/sum-root-to-leaf-numbers/
-         
-#### 15. Sum of all left leaf nodes
-         https://leetcode.com/problems/sum-of-left-leaves/
-         
-#### 16. Deepest Leaf Nodes Sum
-         https://leetcode.com/problems/deepest-leaves-sum/
-         
-#### 17. Right View
-         https://leetcode.com/problems/binary-tree-right-side-view/
-         
-#### 18. Left View
-         https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1#
-         
-#### 19. Zigzag/Spiral Level Order Traversal         
-         https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
-         
-#### 20. Cousins in a Binary Tree
-         https://leetcode.com/problems/cousins-in-binary-tree/
-         
-#### 21. All paths in a Binary Tree
-         https://leetcode.com/problems/binary-tree-paths/
-         
-#### 22. Invert Binary Tree
-         https://leetcode.com/problems/invert-binary-tree/
-         
-#### 23. Count all Good Nodes
-         https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 
-#### 24. Find Bottom Left Value of Tree
-         https://leetcode.com/problems/find-bottom-left-tree-value/
+
+
+### Folder - B   
+#### 1. Symmetric Tree
+        https://leetcode.com/problems/symmetric-tree/
          
-#### 25. Lowest Common Ancestor
-         https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+#### 2. Sum of Root To Leaf I *
+        https://practice.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1/#
          
-#### 26. Find distance between two nodes of a Binary Tree * 
-         https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1/#
+#### 3. Sum of Root To Leaf Binary Numbers (Binary)
+        https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
          
-#### 27. Find kth Ancestor in a Binary Tree **
-         https://practice.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1/#
-         https://leetcode.com/problems/kth-ancestor-of-a-tree-node/   (Hard)
+#### 4. Sum of Root To Leaf II
+        https://leetcode.com/problems/sum-root-to-leaf-numbers/
          
-#### 28. Number of turns to reach from one node to other in binary tree
-         https://practice.geeksforgeeks.org/problems/number-of-turns-in-binary-tree/1
+#### 5. Sum of all left leaf nodes
+        https://leetcode.com/problems/sum-of-left-leaves/
          
-#### 29. Binary Tree Coloring Game *** (Hard)
-         https://leetcode.com/problems/binary-tree-coloring-game/
+#### 6. Deepest Leaf Nodes Sum
+        https://leetcode.com/problems/deepest-leaves-sum/
          
-#### 30. Number of turns to reach from one node to another **
-         https://practice.geeksforgeeks.org/problems/number-of-turns-in-binary-tree/1/
+#### 7. Right View
+        https://leetcode.com/problems/binary-tree-right-side-view/
          
-#### 31. Check if a given tree is Sum Tree **(Method 2 - Tricky)
+#### 8. Left View
+        https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1#
+         
+#### 9. Zigzag/Spiral Level Order Traversal         
+        https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+         
+#### 10. Cousins in a Binary Tree
+         https://leetcode.com/problems/cousins-in-binary-tree/
+
+
+
+### Folder - C
+#### 1. All paths in a Binary Tree
+        https://leetcode.com/problems/binary-tree-paths/
+         
+#### 2. Invert Binary Tree
+        https://leetcode.com/problems/invert-binary-tree/
+         
+#### 3. Count all Good Nodes
+        https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+
+#### 4. Find Bottom Left Value of Tree
+        https://leetcode.com/problems/find-bottom-left-tree-value/
+         
+#### 5. Lowest Common Ancestor
+        https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+         
+#### 6. Find distance between two nodes of a Binary Tree * 
+        https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1/#
+         
+#### 7. Find kth Ancestor in a Binary Tree **
+        https://practice.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1/#
+        https://leetcode.com/problems/kth-ancestor-of-a-tree-node/   (Hard)
+         
+#### 8. Number of turns to reach from one node to other in binary tree
+        https://practice.geeksforgeeks.org/problems/number-of-turns-in-binary-tree/1
+         
+#### 9. Binary Tree Coloring Game *** (Hard)
+        https://leetcode.com/problems/binary-tree-coloring-game/
+           
+#### 10. Check if a given tree is Sum Tree **(Method 2 - Tricky)
          https://practice.geeksforgeeks.org/problems/sum-tree/1
        
