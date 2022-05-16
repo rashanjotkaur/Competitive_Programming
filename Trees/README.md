@@ -61,8 +61,8 @@
 #### 8. Left View
         https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1#
          
-#### 9. Zigzag/Spiral Level Order Traversal         
-        https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+#### 9. Bottom View 
+        https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
          
 #### 10. Cousins in a Binary Tree
          https://leetcode.com/problems/cousins-in-binary-tree/
@@ -107,5 +107,11 @@
 #### 1. Balanced Binary Tree
         https://leetcode.com/problems/balanced-binary-tree/
 
-#### 2. 
+#### 2. Zigzag/Spiral Level Order Traversal
+        https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
        
+#### 3. Connect Nodes At Same Level
+        https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+
+#### 4. Children Sum Parent
+        https://practice.geeksforgeeks.org/problems/children-sum-parent/1

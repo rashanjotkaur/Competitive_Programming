@@ -70,9 +70,34 @@ int kthAncestor(Node *root, int k, int node){
     return anc;
 }
 
+// Method 3 - Backtracking and Storing in Vector - Easy & Important
+// Function - Main
+int kthAncestor(Node *root, int k, int x){
+    vector <int> vec;
+    int ans=-1;
+    kth(root,x,k,vec,ans);
+    return ans;
+}
+// Function - 1
+void kth(struct Node *root,int x,int k,vector <int> &vec,int &ans){
+    if(root==NULL)
+        return ;
+
+    vec.push_back(root->data);
+
+    if(root->data==x && vec.size()>k){
+        int n=vec.size();
+        ans=vec[n-1-k];
+        return ;
+    }
+
+    kth(root->left,x,k,vec,ans);
+    kth(root->right,x,k,vec,ans);
+    vec.pop_back();
+}
 
 
-// Method 3 - Using Backtracking - Difficult
+// Method 4 - Using Backtracking - Difficult
 bool kth(struct Node *root,int x,vector <int> &vec){
      if (root==NULL) 
         return false; 
