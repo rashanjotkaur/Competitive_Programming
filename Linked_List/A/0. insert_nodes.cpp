@@ -40,7 +40,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>x;
         insert(head,x);
-    }
-	print(head);
-	return 0;
+    }	
+    print(head);
+    return 0;
 }
