@@ -27,9 +27,9 @@ public:
         //--- for this test case --- 
         // sum: 4
         // maxSum: INT_MIN
-    	  //	  7				
-    	  //	 / \			
-    	  // Null -3	
+    	//	  7				
+    	//	 / \			
+    	// Null -3	
         if(root->left && root->right)
             return maxSum;
         return max(maxSum,sum);
