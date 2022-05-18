@@ -115,3 +115,11 @@
 
 #### 4. Children Sum Parent
         https://practice.geeksforgeeks.org/problems/children-sum-parent/1
+        
+#### 5. Max Path Sum I - Hard
+        https://practice.geeksforgeeks.org/problems/maximum-path-sum/1/#
+        
+#### 6. Max Path Sum II - Hard
+        https://leetcode.com/problems/binary-tree-maximum-path-sum/
+        
+#### 7.         
