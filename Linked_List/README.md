@@ -28,3 +28,6 @@
         
 #### 8. Swapping Nodes in a Linked List
         https://leetcode.com/problems/swapping-nodes-in-a-linked-list/
+
+#### 9. Length of longest palindrome list in a linked list using O(1) extra space
+        https://practice.geeksforgeeks.org/problems/length-of-longest-palindrome-in-linked-list/1/
