@@ -1,5 +1,25 @@
 // https://leetcode.com/problems/merge-two-sorted-lists/
 
+// Recursive Function
+Node* sortedMerge(Node* a, Node* b){  
+    Node *res=NULL;
+    if(a==NULL)
+        return b;
+    if(b==NULL)
+        return a;
+    if(a->data<b->data){
+        res=a;
+        res->next=sortedMerge(a->next,b);
+    }
+    else{
+        res=b;
+        res->next=sortedMerge(a,b->next);
+    }
+    return res;
+} 
+
+
+// Iterative Method
 class Solution {
 public:
     ListNode* newNode(int data){
