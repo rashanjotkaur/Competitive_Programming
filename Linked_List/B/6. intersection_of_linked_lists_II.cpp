@@ -6,17 +6,6 @@ class Solution{
         Node *temp=new Node(x);
         return temp;
     }
-    Node* insert(Node *head, int x){
-        if(head==NULL){
-            head=newNode(x);
-            return head;
-        }
-        Node *temp=head;
-        while(temp->next)
-            temp=temp->next;
-        temp->next=newNode(x);
-        return head;
-    }
     Node* findIntersection(Node* a, Node* b){
         unordered_map <int,bool> ump;
         while(b){
@@ -24,9 +13,18 @@ class Solution{
             b=b->next;
         }
         Node *res=NULL;
+        Node *temp=NULL;
         while(a){
-            if(ump[a->data])
-                res=insert(res,a->data);
+            if(ump[a->data]){
+                if(res==NULL){
+                    res=newNode(a->data);
+                    temp=res;
+                }
+                else{
+                    temp->next=newNode(a->data);
+                    temp=temp->next;
+                }
+            }
             a=a->next;    
         }
         return res;
