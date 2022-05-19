@@ -36,10 +36,10 @@
 
 ### Folder - B
 
-#### 1. Check if the linked list is Pallindrome or not in O(1)
+#### 0. Check if the linked list is Pallindrome or not in O(1)
         https://leetcode.com/problems/palindrome-linked-list/
         
-#### 2. Sort the linked list 
+#### 1. Sort the linked list 
         https://leetcode.com/problems/sort-list/
         
-#### 3.         
+#### 2.         
