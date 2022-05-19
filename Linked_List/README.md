@@ -33,6 +33,13 @@
         https://practice.geeksforgeeks.org/problems/length-of-longest-palindrome-in-linked-list/1/
 
 
-#### 10. Check if the linked list is Pallindrome or not in O(1)
-         https://leetcode.com/problems/palindrome-linked-list/
-         
+
+### Folder - B
+
+#### 1. Check if the linked list is Pallindrome or not in O(1)
+        https://leetcode.com/problems/palindrome-linked-list/
+        
+#### 2. Sort the linked list 
+        https://leetcode.com/problems/sort-list/
+        
+#### 3.         
