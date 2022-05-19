@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/merge-two-sorted-lists/
+// https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1#
 
 // Recursive Function
 Node* sortedMerge(Node* a, Node* b){  
