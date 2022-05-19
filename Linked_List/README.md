@@ -31,3 +31,8 @@
 
 #### 9. Length of longest palindrome list in a linked list using O(1) extra space
         https://practice.geeksforgeeks.org/problems/length-of-longest-palindrome-in-linked-list/1/
+
+
+#### 10. Check if the linked list is Pallindrome or not in O(1)
+         https://leetcode.com/problems/palindrome-linked-list/
+         
