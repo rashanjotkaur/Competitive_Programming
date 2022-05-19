@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/intersection-of-two-linked-lists/
+// https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1#
 
 class Solution {
 public:
