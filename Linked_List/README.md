@@ -42,8 +42,25 @@
 #### 1. Sort the linked list 
         https://leetcode.com/problems/sort-list/
         
-#### 2. Intersection of linked list
+#### 2. Intersection Node of linked list
         https://leetcode.com/problems/intersection-of-two-linked-lists/
         https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1#
 
-#### 3. 
+#### 3. Merge two sorted linked lists
+        https://leetcode.com/problems/merge-two-sorted-lists/
+        
+#### 4. Union of two linked lists
+        https://practice.geeksforgeeks.org/problems/union-of-two-linked-list/1/#
+        
+#### 5. Intersection of two linked lists
+        No Link
+        
+#### 6. Interestion of two linked lists (Not in sorted Order) 
+        https://practice.geeksforgeeks.org/problems/intersection-of-two-linked-list/1/#
+        
+#### 7. Delete middle node in the linked list
+        https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
+        
+#### 8. Remove Duplicates from Sorted List II
+        https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+        
