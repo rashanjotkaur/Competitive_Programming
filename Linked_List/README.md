@@ -42,4 +42,8 @@
 #### 1. Sort the linked list 
         https://leetcode.com/problems/sort-list/
         
-#### 2.         
+#### 2. Intersection of linked list
+        https://leetcode.com/problems/intersection-of-two-linked-lists/
+        https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1#
+
+#### 3. 
