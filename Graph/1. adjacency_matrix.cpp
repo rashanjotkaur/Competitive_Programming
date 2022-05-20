@@ -26,3 +26,14 @@ int main(){
 	printGraph(adj,v);
 	return 0;
 }
+
+
+// Input
+5 7     //vertices edges
+0 1    // There is an edge b/w 0 and 1
+0 4
+1 2
+1 3
+1 4
+2 3
+3 4
