@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/minimum-path-sum/
 
+// DFS
 // Method 1 - Space Complexity less than Method 2
 // Don't use extra dp as We used in Method 2
 class Solution {
@@ -69,5 +70,59 @@ public:
             }
         }
         return path[n-1][m-1];
+    }
+};
+
+
+// Using BFS - Not Fast
+class Solution {
+public:
+    typedef pair<int,int> pi;
+    typedef pair<int,pi> ppi;
+    int minPathSum(vector <vector<int>> &grid) {
+        int row=grid.size();
+        if(row==0)
+            return 0;
+        int col=grid[0].size();
+        
+        // Only two options as we can move:
+        // Right
+        // Down
+        vector <int> rows={1,0};   // for moving down
+        vector <int> cols={0,1};   // for moving right
+        
+        priority_queue <ppi,vector<ppi>,greater<ppi>> pq;  //min at top
+        vector <vector<int>> path(row,vector <int> (col,INT_MAX));
+        
+        path[0][0]=0;
+        pq.push({grid[0][0],{0,0}});
+        
+        while(!pq.empty()){
+            int w=pq.top().first;
+            int rr=pq.top().second.first;
+            int cc=pq.top().second.second;
+            pq.pop();
+            if(rr==row-1 && cc==col-1)
+                return w;
+            for(int i=0;i<2;i++){
+                int r=rr+rows[i];
+                int c=cc+cols[i];
+                if(r<0 || r>=row)
+                    continue;
+                if(c<0 || c>=col)
+                    continue;
+                int dis=w+grid[r][c];
+                if(dis<path[r][c]){
+                    path[r][c]=dis;
+                    pq.push({dis,{r,c}});
+                }
+            }
+        }
+        // for(int i=0;i<row;i++){
+        //     for(int j=0;j<col;j++)
+        //         cout<<path[i][j]<<" ";
+        //     cout<<endl;
+        // }
+        return -1;
     }
 };
