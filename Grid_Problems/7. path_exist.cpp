@@ -181,7 +181,7 @@ bool bfs(vector <vector<int>> mat,int n,int sr,int sc,int dr,int dc){
     	return vis[dr][dc];
 }
 int main() {
-	    int n;
+	int n;
     	cin>>n;
     	vector <vector<int>> mat(n,vector <int> (n));
     	int sr,sc,dr,dc;
