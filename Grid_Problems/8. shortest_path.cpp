@@ -1,6 +1,29 @@
 // https://leetcode.com/problems/minimum-path-sum/
 
-// Method 1
+// Method 1 - Space Complexity less than Method 2
+// Don't use extra dp as We used in Method 2
+class Solution {
+public:
+    int minPathSum(vector <vector<int>> &grid) {
+        int row=grid.size();
+        if(row==0)
+            return 0;
+        int col=grid[0].size();
+        for(int i=1;i<row;i++)
+            grid[i][0]+=grid[i-1][0];
+        
+        for(int j=1;j<col;j++)
+            grid[0][j]+=grid[0][j-1];
+        
+        for(int i=1;i<row;i++){
+            for(int j=1;j<col;j++)
+                grid[i][j]=min(grid[i][j-1],grid[i-1][j])+grid[i][j];
+        }
+        return grid[row-1][col-1];
+    }
+};
+
+// Method 2
 class Solution {
 public:
     int minPathSum(vector <vector<int>> &grid) {
@@ -29,7 +52,7 @@ public:
     }
 };
 
-// Method 2
+// Method 3 - Most optimal
 class Solution {
 public:
     int minPathSum(vector <vector<int>> &path) {
