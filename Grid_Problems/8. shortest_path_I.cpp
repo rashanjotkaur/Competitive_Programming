@@ -1,5 +1,4 @@
 // Using DP - https://leetcode.com/problems/minimum-path-sum/
-// Using BFS Hard - https://practice.geeksforgeeks.org/problems/minimum-cost-path3833/1/#
 
 // https://practice.geeksforgeeks.org/problems/shortest-source-to-destination-path/0/?track=md-graph&batchId=144
 
