@@ -66,3 +66,11 @@
     
 #### 9. Reorder the Linked List
         https://leetcode.com/problems/reorder-list/description/
+        
+        
+### Folder - C
+
+#### 0. Delete Nodes having greater value on right
+        https://practice.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1       utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+        
+#### 1.        
