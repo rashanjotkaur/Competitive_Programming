@@ -20,7 +20,46 @@ Node* sortedMerge(Node* a, Node* b){
 } 
 
 
-// Iterative Method
+// Iterative Method - Preferred
+// Func 1 - mergeTwoLists
+ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+        ListNode* head=newNode(0);
+        ListNode* curr=head;
+        while(list1 && list2){
+            if(list1->val < list2->val){
+                curr->next=list1;
+                curr=curr->next;
+                list1=list1->next;
+            }
+            else{
+                curr->next=list2;
+                curr=curr->next;
+                list2=list2->next;
+            }
+        }
+        while(list1){
+            curr->next=list1;
+            curr=curr->next;
+            list1=list1->next;
+        }
+        while(list2){
+            curr->next=list2;
+            curr=curr->next;
+            list2=list2->next;
+        }
+        head=head->next;
+        return head;
+}
+// Func 2 - newNode
+ListNode* newNode(int x){
+        ListNode* temp=new ListNode;
+        temp->val=x;
+        temp->next=NULL;
+        return temp;
+}
+
+
+// Iterative Method 
 class Solution {
 public:
     ListNode* newNode(int data){
@@ -41,7 +80,6 @@ public:
     }
     ListNode* merge(ListNode *a, ListNode *b){
         ListNode *res=NULL;
-        ListNode *temp=NULL;
         while(a && b){
             if(a->val<b->val){
                 insert(res,a->val);
