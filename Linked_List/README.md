@@ -71,6 +71,6 @@
 ### Folder - C
 
 #### 0. Delete Nodes having greater value on right
-        https://practice.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+        https://practice.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
         
 #### 1.        
