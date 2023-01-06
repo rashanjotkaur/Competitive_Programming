@@ -61,7 +61,10 @@
 #### 7. Delete middle node in the linked list
         https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
         
-#### 8. Remove Duplicates from Sorted List II
+#### 8a.Remove Duplicates from Sorted List I
+        https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
+        
+#### 8b. Remove Duplicates from Sorted List II
         https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
     
 #### 9. Remove Duplicates from Unsorted List
@@ -75,3 +78,12 @@
         
 #### 1. Reorder the Linked List
         https://leetcode.com/problems/reorder-list/description/      
+        
+#### 2a. Sort a Linked List of 0s, 1s, 2s - By counting and replacing data
+         https://www.geeksforgeeks.org/sort-a-linked-list-of-0s-1s-or-2s/?ref=lbp
+        
+#### 2b. Sort a Linked List of 0s, 1s, 2s - By changing the links
+         https://www.geeksforgeeks.org/sort-linked-list-0s-1s-2s-changing-links/
+         
+#### 3.          
+        
