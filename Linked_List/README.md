@@ -88,3 +88,8 @@
 #### 3. Multiply Linked Lists
         https://www.geeksforgeeks.org/multiply-two-numbers-represented-linked-lists/
         
+#### 4. Remove Nth Node From End of List
+        https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+        
+#### 5. Remove loop in Linked List
+        https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
