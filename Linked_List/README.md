@@ -64,8 +64,8 @@
 #### 8. Remove Duplicates from Sorted List II
         https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
     
-#### 9. Reorder the Linked List
-        https://leetcode.com/problems/reorder-list/description/
+#### 9. Remove Duplicates from Unsorted List
+        https://practice.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1
         
         
 ### Folder - C
@@ -73,4 +73,5 @@
 #### 0. Delete Nodes having greater value on right
         https://practice.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
         
-#### 1.        
+#### 1. Reorder the Linked List
+        https://leetcode.com/problems/reorder-list/description/      
