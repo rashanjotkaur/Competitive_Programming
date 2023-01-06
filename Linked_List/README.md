@@ -42,7 +42,7 @@
 #### 1. Sort the linked list 
         https://leetcode.com/problems/sort-list/
         
-#### 2. Intersection Node of linked list
+#### 2. Intersection Node of linked list/Intersection Point in Y-shaped Linked List
         https://leetcode.com/problems/intersection-of-two-linked-lists/
         https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1#
 
@@ -91,5 +91,8 @@
 #### 4. Remove Nth Node From End of List
         https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
         
-#### 5. Remove loop in Linked List
+#### 5. Remove loop/cycle in Linked List
         https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+        
+#### 6. Flattening the Linked List with Child and Next Pointers
+        https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/
