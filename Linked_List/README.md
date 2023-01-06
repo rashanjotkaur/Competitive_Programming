@@ -85,5 +85,6 @@
 #### 2b. Sort a Linked List of 0s, 1s, 2s - By changing the links
          https://www.geeksforgeeks.org/sort-linked-list-0s-1s-2s-changing-links/
          
-#### 3.          
+#### 3. Multiply Linked Lists
+        https://www.geeksforgeeks.org/multiply-two-numbers-represented-linked-lists/
         
