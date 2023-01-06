@@ -96,3 +96,9 @@
         
 #### 6. Flattening the Linked List with Child and Next Pointers
         https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/
+        
+#### 7. Rearrange Linked List in Zig-Zag Fashion
+        https://practice.geeksforgeeks.org/problems/linked-list-in-zig-zag-fashion/1
+        
+#### 8.         
+        
