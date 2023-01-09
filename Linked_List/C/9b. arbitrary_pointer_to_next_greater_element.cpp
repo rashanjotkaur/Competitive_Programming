@@ -62,7 +62,7 @@ void printList(struct Node *head){
 }
 
 Node* reverseList(struct Node *head){
-    if(head==NULL && head->next==NULL)
+    if(head==NULL || head->next==NULL)
         return head;
     struct Node *prev=NULL;
     struct Node *curr=head;
@@ -78,7 +78,7 @@ Node* reverseList(struct Node *head){
 } 
 
 void nextGreaterPointers(struct Node* head){
-    if(head==NULL && head->next==NULL)
+    if(head==NULL || head->next==NULL)
         return ;
     
     Node *rhead=reverseList(head);
