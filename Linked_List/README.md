@@ -103,7 +103,9 @@
 #### 8. Segregate the Even and Odd Nodes
         https://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/
         
-#### 9. Next Greater Node in Linked List
+#### 9a. Next Greater Node in Linked List
         https://leetcode.com/problems/next-greater-node-in-linked-list/description/
         
+#### 9b. Arbitrary Pointer pointing to Next Greater Node in Linked List
+        No Link
         
