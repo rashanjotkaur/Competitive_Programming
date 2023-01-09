@@ -2,7 +2,7 @@
 
 class Solution {
 public:
-    ListNode *mergeSortUtil(ListNode *a, ListNode *b){
+    ListNode *merge(ListNode *a, ListNode *b){
         ListNode *res=NULL;
         if(a==NULL)
             return b;
@@ -10,14 +10,15 @@ public:
             return a;
         if(a->val<b->val){
             res=a;
-            res->next=mergeSortUtil(a->next,b);
+            res->next=merge(a->next,b);
         }
         else{
             res=b;
-            res->next=mergeSortUtil(a,b->next);
+            res->next=merge(a,b->next);
         }
         return res;
     }
+    
     void split(ListNode *head, ListNode *&a, ListNode *&b){
         ListNode *slow=head;
         ListNode *fast=head->next;
@@ -29,6 +30,7 @@ public:
         b=slow->next;
         slow->next=NULL;
     }
+    
     ListNode *mergeSort(ListNode *&head){
         if(head==NULL || head->next==NULL)
             return head;
@@ -42,6 +44,7 @@ public:
         head=mergeSortUtil(a,b);
         return head;
     }
+    
     // Main Function
     ListNode* sortList(ListNode* head) {
         if(head==NULL || head->next==NULL)
