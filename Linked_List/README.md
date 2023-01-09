@@ -100,5 +100,10 @@
 #### 7. Rearrange Linked List in Zig-Zag Fashion
         https://practice.geeksforgeeks.org/problems/linked-list-in-zig-zag-fashion/1
         
-#### 8.         
+#### 8. Segregate the Even and Odd Nodes
+        https://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/
+        
+#### 9. Next Greater Node in Linked List
+        https://leetcode.com/problems/next-greater-node-in-linked-list/description/
+        
         
