@@ -52,8 +52,11 @@
 #### 4. Union of two linked lists
         https://practice.geeksforgeeks.org/problems/union-of-two-linked-list/1/#
         
-#### 5. Intersection of two linked lists
-        No Link
+#### 5a. Intersection of two sorted linked lists
+         https://www.geeksforgeeks.org/intersection-of-two-sorted-linked-lists/
+
+#### 5b. Intersection of two linked lists - Output should be in sorted order
+         No Link
         
 #### 6. Interestion of two linked lists (Not in sorted Order) 
         https://practice.geeksforgeeks.org/problems/intersection-of-two-linked-list/1/#
