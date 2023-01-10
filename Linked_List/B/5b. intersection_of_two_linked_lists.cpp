@@ -65,7 +65,6 @@ Node* mergeSortUtil(Node *a, Node *b){
 }
 
 // Function - 4
-
 Node *intersection(Node *a,Node *b){
         if(a==NULL || b==NULL)
             return NULL;
