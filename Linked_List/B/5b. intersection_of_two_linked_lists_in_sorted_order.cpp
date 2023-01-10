@@ -156,15 +156,3 @@ Node *intersection(Node *a,Node *b){
         }
         return res;
 }
-
-
-
-
-
-
-
-
-
-
-
-
