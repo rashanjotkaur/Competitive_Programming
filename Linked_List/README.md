@@ -64,10 +64,10 @@
 #### 7. Delete middle node in the linked list
         https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
         
-#### 8a.Remove Duplicates from Sorted List I
+#### 8a.Remove Duplicates from Sorted List I (1 2 3 3 4 4 5 --> 1 2 3 4 5)
         https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
         
-#### 8b. Remove Duplicates from Sorted List II
+#### 8b. Remove Duplicates from Sorted List II (1 2 3 3 4 4 5 --> 1 2 5)
         https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
     
 #### 9. Remove Duplicates from Unsorted List
