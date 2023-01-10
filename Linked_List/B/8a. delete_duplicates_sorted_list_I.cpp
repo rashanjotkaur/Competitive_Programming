@@ -79,7 +79,7 @@ ListNode* merge(ListNode *a, ListNode *b){
             res->next=merge(a,b->next);
         }
         else if(a->val==b->val){
-            res=a;
+            res=a; // here we will add node for the one time only.
             res->next=merge(a->next,b->next);
         }
         return res;
