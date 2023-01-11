@@ -119,4 +119,7 @@
         https://www.geeksforgeeks.org/sum-of-two-linked-lists/
         https://leetcode.com/problems/add-two-numbers/submissions/
         
-#### 1.         
+#### 1. Reverse a Doubly Linked List
+        https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1
+        
+#### 2.         
