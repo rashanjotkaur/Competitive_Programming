@@ -1,5 +1,10 @@
 // https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/
 
+// Input 
+// testcases=1
+// n=8
+// 2 5 7 12 10 6 4 1
+
 #include<bits/stdc++.h>
 using namespace std;
 
