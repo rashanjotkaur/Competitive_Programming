@@ -50,6 +50,7 @@ ListNode* mergeLinkedList(ListNode* a, ListNode *b){
 // How the Time Complexity is O(knlogn)
 // 1. Total K Linked Lists
 // 2. Inserting each lists with 'n' number of nodes = nlogn
+// Space Complexity: O(kn)
 
 // Func 1:
 ListNode* mergeKLists(vector <ListNode*> &lists) {
@@ -98,5 +99,24 @@ ListNode* newNode(int x){
 }
     
     
-    
+
+
+// Method 3 - DIVIDE & CONQUER
+// 1. This approach doesn’t require extra space for heap and works in O(k*nlogn)
+// 2. It is known that merging of two linked lists can be done in O(n)time and O(n) space. 
+// 3. The idea is to pair up K lists and merge each pair in linear time using O(n) space.
+// 4. After the first cycle, K/2 lists are left each of size 2*N. 
+// 5. After the second cycle, K/4 lists are left each of size 4*N and so on.
+// 6. Repeat the procedure until we have only one list left.
+
+// Time Complexity: O(nk*logk)
+// How is the Time Complexity O(nk*logk)?
+// 1. Number of linked lists: k=8 -> 4 -> 2 -> 1
+// 2. So, this is basically: log2(k)
+// 3. Total Number of Elements we are traversing is: k*n
+// 4. Hence, Time Complexity is O(k*n*logk)
+
+// Func 1 
+
+
     
