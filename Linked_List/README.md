@@ -123,4 +123,9 @@
         https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/
         
 #### 2. Reverse a Doubly Linked List
-        https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1        
+        https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1       
+        
+#### 3. Sort the Biotonic Doubly Linked List
+        https://www.codingninjas.com/codestudio/problems/sort-biotonic-dll_981293?leftPanelTab=0
+        
+#### 4.        
