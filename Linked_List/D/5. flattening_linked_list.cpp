@@ -46,3 +46,90 @@ Node* mergeSortedLL(Node *a, Node*b){
         return res;
 }
 
+
+
+// Method 2: Traverse the linked lists and merge it with the next linked.
+// No Extra Space Required.
+
+// Func 1 - Since Every Node has Linked List associated with it.
+Node *flatten(Node *root){
+    if(root==NULL || root->next==NULL)
+        return root;
+        
+    Node *res=NULL;
+    while(root){
+        res=mergeSortedLL(res,root);
+        root=root->next;
+    }
+    return res;
+}
+
+// Func 2
+Node* mergeSortedLL(Node *a, Node *b){
+        if(a==NULL)
+            return b;
+        if(b==NULL)
+            return a;
+        Node *res=NULL;
+        if(a->data<b->data){
+            res=a;
+            res->bottom=mergeSortedLL(a->bottom,b);
+        }
+        else{
+            res=b;
+            res->bottom=mergeSortedLL(a,b->bottom);
+        }
+        return res;
+}
+
+
+
+// Method 3: Using Priority Queue
+// Func 1: 
+Node *flatten(Node *root){
+    if(root==NULL || root->next==NULL)
+        return root;
+        
+    priority_queue <int, vector<int>, greater<int>> pq;
+    while(root){
+        addInPQ(root,pq);
+        root=root->next;
+    }
+    Node *res=NULL;
+    while(!pq.empty()){
+        insert(res,pq.top());
+        pq.pop();
+    }
+    return res;
+}
+
+// Func 2: 
+void addInPQ(Node *head, priority_queue <int, vector<int>, greater<int>> &pq){
+    while(head){
+        pq.push(head->data);
+        head=head->bottom;
+    }    
+}
+
+// Func 3:
+void insert(Node* &head, int x){
+    if(head==NULL){
+        head=newNode(x);
+        return ;
+    }
+    Node *temp=head;
+    while(temp->bottom)
+        temp=temp->bottom;
+    temp->bottom=newNode(x);
+}
+
+Node* newNode(int x){
+    Node *temp=new Node(x);
+    temp->data=x;
+    temp->next=NULL;
+    temp->bottom=NULL;
+    return temp;
+}
+
+
+
