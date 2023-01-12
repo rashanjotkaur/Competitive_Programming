@@ -11,15 +11,15 @@
 // Func 1 - Merge K Linked Lists
 ListNode* mergeKLists(vector <ListNode*> &lists) {
         ListNode *res=NULL;
-        int n=lists.size();
-        if(n==0)
+        int k=lists.size();
+        if(k==0)
             return res;
-        if(n==1){
+        if(k==1){
             res=lists[0];
             return res;
         }
         res=lists[0];
-        for(int i=1;i<n;i++){
+        for(int i=1;i<k;i++){
             ListNode *temp=lists[i];
             res=mergeLinkedList(res,temp);
         }
@@ -45,5 +45,58 @@ ListNode* mergeLinkedList(ListNode* a, ListNode *b){
 }
 
 
-// Method 2 - 
+// Method 2 - Using Priority Queue
+// Time Complexity: O(k*nlogn)
+// How the Time Complexity is O(knlogn)
+// 1. Total K Linked Lists
+// 2. Inserting each lists with 'n' number of nodes = nlogn
+
+// Func 1:
+ListNode* mergeKLists(vector <ListNode*> &lists) {
+        int k=lists.size();
+        if(k==0)
+            return NULL;
+        if(k==1)
+            return lists[0];
+
+        priority_queue <int, vector<int>, greater<int>> pq;
+        for(int i=0;i<k;i++){
+            ListNode *temp=lists[i];
+            while(temp){
+                pq.push(temp->val);
+                temp=temp->next;
+            }
+        }
+
+        ListNode *res=NULL;
+        while(!pq.empty()){
+            int x=pq.top();
+            insert(res,x);
+            pq.pop();
+        }
+        return res;
+}
+
+// Func 2: 
+void insert(ListNode* &head, int x){
+        if(head==NULL){
+            head=newNode(x);
+            return ;
+        }
+        ListNode *temp=head;
+        while(temp->next)
+            temp=temp->next;
+        temp->next=newNode(x);
+}
+
+// Func 3:
+ListNode* newNode(int x){
+        ListNode *temp=new ListNode;
+        temp->val=x;
+        temp->next=NULL;
+        return temp;
+}
+    
+    
+    
     
