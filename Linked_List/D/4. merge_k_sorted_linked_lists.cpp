@@ -2,6 +2,11 @@
 
 // Method 1 - Brute Force Solution 
 // Comparing two lists -> Then merge them and compare it with the next one
+// Time Complexity: O(nk^2)
+// How Time Complexity is O(nk^2): 
+// 1. Traversing all lists starting from the second list = n*k
+// 2. Insert every node of the currently traversed list into result in a sorted way = k 
+// Space Complexity: O(1)
 
 // Func 1 - Merge K Linked Lists
 ListNode* mergeKLists(vector <ListNode*> &lists) {
@@ -38,4 +43,7 @@ ListNode* mergeLinkedList(ListNode* a, ListNode *b){
         }
         return res;
 }
+
+
+// Method 2 - 
     
