@@ -1,4 +1,7 @@
-//  https://leetcode.com/problems/merge-k-sorted-lists/description/
+// https://leetcode.com/problems/merge-k-sorted-lists/description/
+// All Approaches: https://www.geeksforgeeks.org/cpp-program-to-merge-k-sorted-linked-lists-set-1/?ref=rp
+
+// Best Method - Method 3
 
 // Method 1 - Brute Force Solution 
 // Comparing two lists -> Then merge them and compare it with the next one
@@ -101,7 +104,7 @@ ListNode* newNode(int x){
     
 
 
-// Method 3 - DIVIDE & CONQUER
+// Method 3 - DIVIDE & CONQUER - Preferred && Fastest Approached && No Extra Space required.
 // 1. This approach doesn’t require extra space for heap and works in O(k*nlogn)
 // 2. It is known that merging of two linked lists can be done in O(n)time and O(n) space. 
 // 3. The idea is to pair up K lists and merge each pair in linear time using O(n) space.
@@ -116,7 +119,46 @@ ListNode* newNode(int x){
 // 3. Total Number of Elements we are traversing is: k*n
 // 4. Hence, Time Complexity is O(k*n*logk)
 
-// Func 1 
+// Func 1:
+ListNode* mergeKLists(vector <ListNode*> &lists) {
+        int k=lists.size();
+        if(k==0)
+            return NULL;
+        if(k==1)
+            return lists[0];
+
+        int last=k-1;
+        while(last!=0){
+            int i=0,j=last;
+            while(i<j){
+                lists[i]=mergeSortedLL(lists[i], lists[j]);
+                i++;
+                j--;
+                if(i>=j)
+                    last=j;
+            }
+        }
+        return lists[0];
+}
+
+// Func 2: 
+ListNode* mergeSortedLL(ListNode *a, ListNode*b){
+        if(a==NULL)
+            return b;
+        if(b==NULL)
+            return a;
+        ListNode *res=NULL;
+        if(a->val<b->val){
+            res=a;
+            res->next=mergeSortedLL(a->next,b);
+        }
+        else{
+            res=b;
+            res->next=mergeSortedLL(a,b->next);
+        }
+        return res;
+}
+    
 
 
     
