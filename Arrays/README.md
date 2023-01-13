@@ -1,5 +1,11 @@
 # Array Problems
 
+## Folder - A
+#### 0. Add one in Array
+        https://leetcode.com/problems/plus-one/
+        
+#### 1.         
+
 ## Folder - Duplicate Element Problems
 #### 0. If Duplicate Exists
         https://leetcode.com/problems/contains-duplicate/description/
