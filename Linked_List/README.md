@@ -128,4 +128,11 @@
 #### 3. Sort the Biotonic Doubly Linked List
         https://www.codingninjas.com/codestudio/problems/sort-biotonic-dll_981293?leftPanelTab=0
         
-#### 4.        
+#### 4. Merge k Sorted Linked Lists
+        https://leetcode.com/problems/merge-k-sorted-lists/description/
+        
+#### 5. Flattening Linked List   
+        https://www.geeksforgeeks.org/flattening-a-linked-list/
+        
+#### 6. Subtracting Linked Lists
+        https://www.geeksforgeeks.org/subtract-two-numbers-represented-as-linked-lists/
