@@ -6,8 +6,10 @@
         
 #### 1. Duplicate within K Distance
         https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-within-k-distance/
+        https://leetcode.com/problems/contains-duplicate-ii/submissions/673569140/
         
-#### 2. 
+#### 2. Remove Duplicate from Sorted Array - In Place
+        https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 
 ## Folder - Standard Problems
