@@ -4,7 +4,10 @@
 #### 0. Add one in Array
         https://leetcode.com/problems/plus-one/
         
-#### 1.         
+#### 1. Chocolate Distribution
+        https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1
+        
+#### 2.         
 
 ## Folder - Duplicate Element Problems
 #### 0. If Duplicate Exists
@@ -17,6 +20,9 @@
 #### 2. Remove Duplicate from Sorted Array - In Place
         https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
+## Folder - Rotated Array Problems
+#### 0. Search in Rotated Sorted Array
+        https://leetcode.com/problems/search-in-rotated-sorted-array/
 
 ## Folder - Standard Problems
 #### 0. Product of Array Except Itself
@@ -26,4 +32,7 @@
 #### 1. Subarray with Maximum Sum
         https://leetcode.com/problems/maximum-subarray/description/
         
-#### 2. 
+#### 2. Search in Rotated Sorted Array
+        https://leetcode.com/problems/search-in-rotated-sorted-array/
+        
+#### 3.         
