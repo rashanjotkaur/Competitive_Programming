@@ -21,6 +21,10 @@
 #### 2. Remove Duplicate from Sorted Array - In Place
         https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
+## Folder - Permutation Problems
+#### 0. Next Permutation
+        https://leetcode.com/problems/next-permutation/description/
+
 
 ## Folder - Rotated Array Problems
 #### 0. Search in Rotated Sorted Array
@@ -39,4 +43,7 @@
 #### 2. Search in Rotated Sorted Array
         https://leetcode.com/problems/search-in-rotated-sorted-array/
         
-#### 3.         
+#### 3. Next Permutation
+        https://leetcode.com/problems/next-permutation/description/
+
+#### 4. 
