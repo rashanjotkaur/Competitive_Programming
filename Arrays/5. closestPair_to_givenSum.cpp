@@ -6,26 +6,26 @@ using namespace std;
 void printClosest(vector <int> vec1, vector <int> vec2, int sum){
 	int n1=vec1.size();
 	int n2=vec2.size();
-  sort(vec1.begin(),vec1.end());   //If the vectors are not sorted, then sort them.
-  sort(vec2.begin(),vec2.end());
+        sort(vec1.begin(),vec1.end());   //If the vectors are not sorted, then sort them.
+  	sort(vec2.begin(),vec2.end());
 	int mindiff=INT_MAX;
-    int i=0,j=n2-1;
+    	int i=0,j=n2-1;
 	int x,y;
 
 	while(i<n1 && j>=0){
 	    int tempSum=vec1[i]+vec2[j];
 	    int diff=abs(tempSum-sum);
-    	if(diff<mindiff){
+    	    if(diff<mindiff){
     		x=vec1[i];
     		y=vec2[j];
     		mindiff=diff;
-    	}
-    	if(tempSum>sum)
+    	    }
+    	    if(tempSum>sum)
     		j--;
-    	else 
+    	    else 
     		i++;
 	}	
-    cout<<"The closest pair is: "<<x<<" "<<y<<endl;
+    	cout<<"The closest pair is: "<<x<<" "<<y<<endl;
 }
 
 int main(){
