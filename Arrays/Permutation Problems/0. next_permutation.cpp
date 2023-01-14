@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/next-permutation/
+// https://www.geeksforgeeks.org/next-permutation/
 
 // Best Approach
 void nextPermutation(vector <int> &nums) {
