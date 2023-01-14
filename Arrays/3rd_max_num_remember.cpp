@@ -8,7 +8,6 @@ public:
         long max1=LONG_MIN;
         long max2=LONG_MIN;
         long max3=LONG_MIN;
-        
         for(int i=0;i<n;i++){
             if(nums[i]==max1 || nums[i]==max2 || nums[i]==max3)
                 continue;
@@ -25,9 +24,6 @@ public:
                 max3=nums[i];
             }
         }
-        cout<<max1<<" "<<max2<<" "<<max3<<endl;
-        if(max3==LONG_MIN)
-            return max1;
-        return max3;
+        return max3!=LONG_MIN?max3:max1;
     }
 };
