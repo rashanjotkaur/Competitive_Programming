@@ -9,7 +9,12 @@
         
 #### 2. Four Elements with Given Sum
         https://practice.geeksforgeeks.org/problems/four-elements2452/1/#
-
+        
+#### 3. Assign Cookies - Remember
+        https://leetcode.com/problems/assign-cookies/
+        
+#### 4. Can Place Flowers - Remember
+        https://leetcode.com/problems/can-place-flowers/
 
 ## Folder - Duplicate Element Problems
 #### 0. If Duplicate Exists
