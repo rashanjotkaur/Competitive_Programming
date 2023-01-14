@@ -9,6 +9,7 @@
         
 #### 2.         
 
+
 ## Folder - Duplicate Element Problems
 #### 0. If Duplicate Exists
         https://leetcode.com/problems/contains-duplicate/description/
@@ -20,9 +21,12 @@
 #### 2. Remove Duplicate from Sorted Array - In Place
         https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
+
 ## Folder - Rotated Array Problems
 #### 0. Search in Rotated Sorted Array
         https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+#### 1. 
 
 ## Folder - Standard Problems
 #### 0. Product of Array Except Itself
