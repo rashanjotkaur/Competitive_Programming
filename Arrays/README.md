@@ -15,6 +15,10 @@
         
 #### 4. Can Place Flowers - Remember
         https://leetcode.com/problems/can-place-flowers/
+        
+#### 5. Closest Pair To Given Sum
+        https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/
+
 
 ## Folder - Duplicate Element Problems
 #### 0. If Duplicate Exists
@@ -26,6 +30,10 @@
         
 #### 2. Remove Duplicate from Sorted Array - In Place
         https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+        
+#### 3. Distribute Candies
+        https://leetcode.com/problems/distribute-candies/
+
 
 ## Folder - Permutation Problems
 #### 0. Next Permutation
@@ -37,6 +45,7 @@
         https://leetcode.com/problems/search-in-rotated-sorted-array/
 
 #### 1. 
+
 
 ## Folder - Standard Problems
 #### 0. Product of Array Except Itself
@@ -61,4 +70,11 @@
 #### 6. All Subsets Power Set
         https://leetcode.com/problems/subsets/
         
-#### 7.         
+#### 7. Container With Most Water
+        https://www.geeksforgeeks.org/container-with-most-water/
+        
+#### 8. Find Repeating and Missing Number
+        https://leetcode.com/problems/set-mismatch/
+        
+#### 9. Find Pivot Index/Find Equilibrium Point
+        https://leetcode.com/problems/find-pivot-index/
