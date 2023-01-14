@@ -7,7 +7,8 @@
 #### 1. Chocolate Distribution
         https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1
         
-#### 2.         
+#### 2. Four Elements with Given Sum
+        https://practice.geeksforgeeks.org/problems/four-elements2452/1/#
 
 
 ## Folder - Duplicate Element Problems
@@ -46,4 +47,13 @@
 #### 3. Next Permutation
         https://leetcode.com/problems/next-permutation/description/
 
-#### 4. 
+#### 4. Buy & Sell Stocks
+        https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+#### 5. Third Maximum Element
+        https://leetcode.com/problems/third-maximum-number/
+        
+#### 6. All Subsets Power Set
+        https://leetcode.com/problems/subsets/
+        
+#### 7.         
