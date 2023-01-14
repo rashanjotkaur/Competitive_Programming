@@ -1,6 +1,7 @@
 // Not similar to Rain Water Trapping, that's different.
 
 // https://leetcode.com/problems/container-with-most-water/
+// https://www.geeksforgeeks.org/container-with-most-water/
 
 class Solution {
 public:
@@ -11,7 +12,6 @@ public:
         int maxWater=0;
         while(i<j){
             maxWater=max(maxWater,min(height[i],height[j])*(j-i));
-            cout<<maxWater<<" ";
             if(height[i]<height[j])
                 i++;
             else
