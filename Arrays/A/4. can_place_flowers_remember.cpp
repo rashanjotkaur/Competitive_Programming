@@ -4,7 +4,7 @@
 
 class Solution {
 public:
-    bool canPlaceFlowers(vector<int>& flowerbed, int flower) {
+    bool canPlaceFlowers(vector <int> &flowerbed, int flower) {
         int count=0;
         int n=flowerbed.size();
         for(int i=0;i<n;i++){
