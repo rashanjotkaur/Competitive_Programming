@@ -27,6 +27,10 @@
 
 #### 8. Maximum Product of 3 Numbers
         https://leetcode.com/problems/maximum-product-of-three-numbers/
+        
+#### 9. Maximum Array Partition
+        https://leetcode.com/problems/array-partition/
+
 
 ## Folder - Duplicate Element Problems
 #### 0. If Duplicate Exists
