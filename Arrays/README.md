@@ -18,7 +18,15 @@
         
 #### 5. Closest Pair To Given Sum
         https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/
+        
+#### 6. Leaders in Array
+        https://www.geeksforgeeks.org/leaders-in-an-array/
+        
+#### 7. Maximum Consecutive Ones
+        https://leetcode.com/problems/max-consecutive-ones/
 
+#### 8. Maximum Product of 3 Numbers
+        https://leetcode.com/problems/maximum-product-of-three-numbers/
 
 ## Folder - Duplicate Element Problems
 #### 0. If Duplicate Exists
@@ -52,8 +60,11 @@
         https://leetcode.com/problems/product-of-array-except-self/
         https://practice.geeksforgeeks.org/problems/product-array-puzzle4525/1
         
-#### 1. Subarray with Maximum Sum
-        https://leetcode.com/problems/maximum-subarray/description/
+#### 1a. Subarray with Maximum Sum
+        https://leetcode.com/problems/maximum-subarray/
+        
+#### 1b. Length of Subarray with Maximum Sum
+        https://www.geeksforgeeks.org/size-subarray-maximum-sum/
         
 #### 2. Search in Rotated Sorted Array
         https://leetcode.com/problems/search-in-rotated-sorted-array/
@@ -78,3 +89,14 @@
         
 #### 9. Find Pivot Index/Find Equilibrium Point
         https://leetcode.com/problems/find-pivot-index/
+
+
+## Folder - Standard Problems_I
+
+#### 0. Longest Harmonious Subsequence
+        https://leetcode.com/problems/longest-harmonious-subsequence/
+        
+#### 1. Majority Element - Moore's Voting Algorithm
+        https://leetcode.com/problems/majority-element/description/
+        
+#### 2.         
