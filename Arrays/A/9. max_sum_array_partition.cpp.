@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/array-partition-i/
+// https://leetcode.com/problems/array-partition/
 
 class Solution {
 public:
