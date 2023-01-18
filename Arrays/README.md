@@ -103,4 +103,7 @@
 #### 1. Majority Element - Moore's Voting Algorithm
         https://leetcode.com/problems/majority-element/description/
         
-#### 2.         
+#### 2. Merge two Sorted Arrays
+        https://leetcode.com/problems/merge-sorted-array/
+        
+#### 3.         
