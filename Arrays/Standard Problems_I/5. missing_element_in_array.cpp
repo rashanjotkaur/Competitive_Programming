@@ -1,27 +1,4 @@
-// Method 1: Drawback of this method is that for large value of n overflow will occur, since we are doing n^2
-#include <bits/stdc++.h> 
-using namespace std; 
-
-int getMissingNo(int arr[],int n){ 
-	int total = (n)*(n + 1)/2; 
-	for (int i=0;i<n-1;i++) 
-		total -= arr[i]; 
-	return total; 
-} 
-// Driver Code
-int main(){ 
-	int t;
-	cin>>t;
-	while(t--){
-	    int n,i;
-	    cin>>n;
-	    int arr[n];
-	    for(i=0;i<n-1;i++){
-	        cin>>arr[i];
-	    }
-	    cout<<getMissingNo(arr,n)<<endl;
-	}
-} 
+// Link: https://leetcode.com/problems/missing-number/
 
 // Method 2: XOR
 #include <bits/stdc++.h> 
@@ -47,7 +24,7 @@ int main(){
 	}
 } 
 
-// Method 3: The BEST APPROACH
+// Method 3: The BEST APPROACH - Only one loop required
 #include <bits/stdc++.h> 
 using namespace std; 
 
@@ -73,3 +50,30 @@ int main(){
 	    cout<<getMissingNo(arr,n)<<endl;
 	}
 } 
+
+
+// Method 1: Drawback of this method is that for large value of n overflow will occur, since we are doing n^2
+#include <bits/stdc++.h> 
+using namespace std; 
+
+int getMissingNo(int arr[],int n){ 
+	int total = (n)*(n + 1)/2; 
+	for (int i=0;i<n-1;i++) 
+		total -= arr[i]; 
+	return total; 
+} 
+// Driver Code
+int main(){ 
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,i;
+	    cin>>n;
+	    int arr[n];
+	    for(i=0;i<n-1;i++){
+	        cin>>arr[i];
+	    }
+	    cout<<getMissingNo(arr,n)<<endl;
+	}
+} 
+
