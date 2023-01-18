@@ -106,4 +106,7 @@
 #### 2. Merge two Sorted Arrays
         https://leetcode.com/problems/merge-sorted-array/
         
-#### 3.         
+#### 3. Minimum Swaps required to Sort an Array
+        https://practice.geeksforgeeks.org/problems/minimum-swaps/1/
+        
+        
