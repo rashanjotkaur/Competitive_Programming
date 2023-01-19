@@ -118,6 +118,10 @@
 #### 6. Find Missing Elements in Array - Inplace (Remember)
         https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
         
-#### 7.         
+#### 7. Minimum Index Sum of Two Lists
+        https://leetcode.com/problems/minimum-index-sum-of-two-lists/
+        
+#### 8.         
+         
         
         
