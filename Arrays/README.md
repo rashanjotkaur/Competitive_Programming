@@ -109,4 +109,15 @@
 #### 3. Minimum Swaps required to Sort an Array
         https://practice.geeksforgeeks.org/problems/minimum-swaps/1/
         
+#### 4. Minimum Size Subarray with Given Sum
+        https://leetcode.com/problems/minimum-size-subarray-sum/
+
+#### 5. Missing Element in Array
+        https://leetcode.com/problems/missing-number/
+        
+#### 6. Find Missing Elements in Array - Inplace (Remember)
+        https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+        
+#### 7.         
+        
         
