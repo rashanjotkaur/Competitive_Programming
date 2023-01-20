@@ -1,12 +1,10 @@
 // Important:
 // 1. If negatives integers are also present --- we can use Method 1, but we can't use Method 2 
-
 // https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1/#
-
 // For Positive intergers only.....
 
 // Method 1: O(n^2): here we are checking for sum of all subsets.
-vector<int> subarraySum(int arr[], int n, long long sum){
+vector <int> subarraySum(int arr[], int n, long long sum){
         int curr_sum, i, j;
         vector <int> res;
         for (i = 0; i < n; i++) {
@@ -52,4 +50,37 @@ vector<int> subarraySum(int arr[], int n, long long k){
         }
         res.push_back(-1);
         return res;
+}
+
+
+// 
+string maxSum(string s,char x[], int b[],int n){
+          int si=s.size();
+          unordered_map <char,int> ump; //Store ASCII values.
+          for(int i=0;i<n;i++)
+              ump[x[i]]=b[i];
+          
+          for(int i=0;i<si;i++){
+                if(!ump[s[i]])
+                    ump[s[i]]=int(s[i]);
+          }
+          long long currSum=0;
+          long long maxSum=LONG_MIN;
+          int start=0;
+          int end=0;
+          int sIdx=0;
+          for(int i=0;i<si;i++){
+                currSum+=ump[s[i]];
+                // cout<<currSum<<" "<<maxSum<<endl;
+                if(currSum>=maxSum){
+                    maxSum=currSum;
+                    end=i;
+                    start=sIdx;
+                }
+                if(currSum<0){
+                    sIdx=i+1;
+                    currSum=0;
+                }
+          }
+          return s.substr(start,end-start+1);
 }
