@@ -5,20 +5,22 @@
 // Works for both positive and negative numbers... Even negatives are required in this then only sum will become zero.
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-int maxLen(vector <int> &nums, int n){   
+int maxLen(vector <int> & nums, int n){ 
         unordered_map <int,int> ump;
         int maxLen=0;
-        int prefixSum=0;
+        int currSum=0;
         for(int i=0;i<n;i++){
-            prefixSum+=nums[i];
-            if(prefixSum==0)
+            currSum+=nums[i];
+            if(currSum==0)
                 maxLen=max(maxLen,i+1);
-            if(ump.find(prefixSum)!=ump.end()){
-                int s=ump[prefixSum];
+                
+            if(ump.find(currSum)==ump.end())
+                ump[currSum]=i;
+                
+            if(ump.find(currSum)!=ump.end()){
+                int s=ump[currSum];
                 maxLen=max(maxLen,i-s);
             }
-            else
-                ump[prefixSum]=i;
         }
         return maxLen;
 }
