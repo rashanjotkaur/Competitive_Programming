@@ -1,5 +1,7 @@
 // https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1
 
+// Works only for Arrays with Positive Integers.
+
 // It is similar to Kadane Algorithm
 // Approach:
 // 1. Here, also we will use the sliding window method to find the currSum.
