@@ -32,6 +32,11 @@
         https://leetcode.com/problems/array-partition/
 
 
+## Folder - B
+#### 0. Range Sum Query
+        https://leetcode.com/problems/range-sum-query-immutable/
+
+
 ## Folder - Duplicate Element Problems
 #### 0. If Duplicate Exists
         https://leetcode.com/problems/contains-duplicate/description/
@@ -45,6 +50,9 @@
         
 #### 3. Distribute Candies
         https://leetcode.com/problems/distribute-candies/
+        
+#### 4. Remove Elements
+        https://leetcode.com/problems/remove-element/
 
 
 ## Folder - Permutation Problems
@@ -125,7 +133,7 @@
         https://leetcode.com/problems/4sum/        
         
         
-### Folder - Standard Problems_II-SubarraySum  
+## Folder - Standard Problems_II-SubarraySum  
 
 #### 0a. Maximum Sum of Subarray - Kadane Algorithm
         https://leetcode.com/problems/maximum-subarray/
@@ -154,4 +162,36 @@
 #### 2d. Count Subarrays with Sum Equals K
         https://leetcode.com/problems/subarray-sum-equals-k/description/        
 
+        
+## Folder - Standard Problems_III
+
+#### 0. Reshape the Matrix
+        https://leetcode.com/problems/reshape-the-matrix/
+        
+#### 1. Pascal Triangle
+        https://leetcode.com/problems/pascals-triangle/
+        
+#### 2. Non-Adjacent - House Robing
+        https://leetcode.com/problems/house-robber/
+        
+#### 3. Count of Smaller Numbers After Self (HARD) - Using Merge Sort
+        https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+        
+#### 4. Merge Without Extra Space (HARD)  
+        https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1#
+        
+#### 5. Max sum in the configuration (HARD)
+        https://practice.geeksforgeeks.org/problems/max-sum-in-the-configuration/1/#      
+        
+#### 6. Frequency of Maximum Number in Matrix
+        https://leetcode.com/problems/range-addition-ii/
+        
+#### 7. Maximum Index - max j-i with arr[j]>=arr[i] - (HARD)
+        https://practice.geeksforgeeks.org/problems/maximum-index3307/1
+        
+#### 8a. Maximum absolute difference of value and index sums I
+        https://www.geeksforgeeks.org/maximum-absolute-difference-value-index-sums/
+
+#### 8b. Maximum of Absolute Value Expression 
+        https://leetcode.com/problems/maximum-of-absolute-value-expression/
         
