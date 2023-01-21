@@ -2,7 +2,7 @@
 // https://leetcode.com/problems/subarray-sum-equals-k/description/
 // https://practice.geeksforgeeks.org/problems/subarray-range-with-given-sum0128/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
 
-// Method 1: Naive Approach
+// Method 1: Naive Approach - Gives TLE - Only 273/505 cases passed
 // Time Complexity: O(N^2)
 int subArraySum(int nums[], int n, int k){
         long long currSum=0;
