@@ -1,4 +1,4 @@
-// Remove Consecutive Characters
+// Remove Duplicate Consecutive Characters
 // https://www.geeksforgeeks.org/remove-consecutive-duplicates-string/
 
 // Link - https://practice.geeksforgeeks.org/problems/consecutive-elements2306/1
