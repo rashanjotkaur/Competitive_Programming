@@ -1,12 +1,11 @@
-### About problems in Standard Problems_II
+### About problems in Standard Problems_II - Contains problems relared to Subarray Sum.
 
 #### All the problems which contains --> (longest subarray with sum = 0 or k) or (count subarrays with sum = 0 or k) are solved using HASH.
-     Problem Number: 2a,2b,2c
+     Problem Number: 2,2a,2b,2c,2d (Array contains both Positive and Negative Numbers.)
      
 #### Not able to solve 2 problems - HARD
      Longest Subarray with Sum>k -- https://www.geeksforgeeks.org/largest-subarray-having-sum-greater-than-k/
      Longest Subarray with Sum>=0 -- https://www.geeksforgeeks.org/longest-subarray-with-sum-greater-than-equal-to-zero/
-
 
 #### Rough Code for - Longest Subarray with Sum>k -- https://www.geeksforgeeks.org/largest-subarray-having-sum-greater-than-k/ - Not Working
      #include <bits/stdc++.h>
