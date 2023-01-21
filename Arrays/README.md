@@ -105,7 +105,8 @@
 #### 3. Minimum Swaps required to Sort an Array
         https://practice.geeksforgeeks.org/problems/minimum-swaps/1/
         
-#### 4. 
+#### 4. Shortest Unsorted Continuous Subarray
+        https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 
 #### 5. Missing Element in Array
         https://leetcode.com/problems/missing-number/
