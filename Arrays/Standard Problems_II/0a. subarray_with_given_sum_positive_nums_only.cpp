@@ -2,6 +2,12 @@
 
 // For Positive intergers only.....
 // Method 2: Preferred
+// It is similar to Kadane Algorithm
+// Approach:
+// 1. Here, also we will use the sliding window method to find the currSum.
+// 2. Then, we will compare it with the given sum.
+// 3. If currSum>sum --> then we will decrease it from the starting.
+
 
 // Method 1: O(n^2): here we are checking for sum of all subarrays.
 vector <int> subarraySum(vector <int> nums, int n, long long k){
