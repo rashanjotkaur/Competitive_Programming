@@ -1,4 +1,5 @@
 // https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1/#
+// Set 1 - https://www.geeksforgeeks.org/find-subarray-with-given-sum/
 
 // For Positive intergers only.....
 // Method 2: Preferred
