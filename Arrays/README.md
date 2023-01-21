@@ -64,11 +64,7 @@
         https://leetcode.com/problems/product-of-array-except-self/
         https://practice.geeksforgeeks.org/problems/product-array-puzzle4525/1
         
-#### 1a. Subarray with Maximum Sum
-        https://leetcode.com/problems/maximum-subarray/
-        
-#### 1b. Length of Subarray with Maximum Sum
-        https://www.geeksforgeeks.org/size-subarray-maximum-sum/
+#### 1.
         
 #### 2. Search in Rotated Sorted Array
         https://leetcode.com/problems/search-in-rotated-sorted-array/
@@ -109,8 +105,7 @@
 #### 3. Minimum Swaps required to Sort an Array
         https://practice.geeksforgeeks.org/problems/minimum-swaps/1/
         
-#### 4. Minimum Size Subarray with Given Sum
-        https://leetcode.com/problems/minimum-size-subarray-sum/
+#### 4. 
 
 #### 5. Missing Element in Array
         https://leetcode.com/problems/missing-number/
@@ -126,4 +121,35 @@
          
 #### 9. 4_Sum
         https://leetcode.com/problems/4sum/        
+        
+        
+### Folder - Standard Problems_II-SubarraySum  
+
+#### 0a. Maximum Sum of Subarray - Kadane Algorithm
+        https://leetcode.com/problems/maximum-subarray/
+        
+#### 0b. Length of Subarray with Maximum Sum
+        https://www.geeksforgeeks.org/size-subarray-maximum-sum/  
+        
+#### 1. Subarray with Given Sum - Positve integers only - No Negative Numbers
+        https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1/#
+        
+#### 1a. Minimum Size Subarray with Given Sum - Positve integers only - No Negative Numbers
+        https://leetcode.com/problems/minimum-size-subarray-sum/
+        
+#### 2. Subarray with Given Sum - Both Positive & Negative Numbers
+        https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/
+        
+#### 2a. Longest Subarray with Sum = 0 - Both Positive & Negative Numbers
+        https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
+        
+#### 2b. Longest Subarray with Sum = k - Both Positive & Negative Numbers
+        https://www.geeksforgeeks.org/longest-sub-array-sum-k/
+        
+#### 2c. Save Your Life - Similar to 2b
+        https://practice.geeksforgeeks.org/problems/save-your-life4601/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+        
+#### 2d. Count Subarrays with Sum Equals K
+        https://leetcode.com/problems/subarray-sum-equals-k/description/        
+
         
