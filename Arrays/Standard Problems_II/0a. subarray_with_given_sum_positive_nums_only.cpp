@@ -1,6 +1,7 @@
 // https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1/#
 
 // For Positive intergers only.....
+// Method 2: Preferred
 
 // Method 1: O(n^2): here we are checking for sum of all subarrays.
 vector <int> subarraySum(vector <int> nums, int n, long long k){
