@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/longest-repeating-character-replacement/
 
-// Method - Using Hashmap
+// Method - Using Hashmap - Sliding Window
 // Time Complexity: O(n)
 int characterReplacement(string s, int k) {
         int n=s.size();
