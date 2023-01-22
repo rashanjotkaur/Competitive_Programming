@@ -4,30 +4,33 @@
 
 // Solve on leetocode - As it is difficult
 // Method 1 - Using stack - So, we are using space here
-class Solution {
-public:
-    string reverseWords(string s) {
+string reverseWords(string s) {
         int n=s.size();
+        string out;
+        string temp="";
         stack <string> st;
-        for(int i=0;i<n;i++){
-            string temp="";
-            while(i<n && s[i]!=' '){
-                temp=temp+s[i];
-                i++;
+        int i=0;
+        while(i<n){
+            if(s[i]==' '){
+                if(temp.size()){
+                    st.push(temp);
+                    temp="";
+                }
             }
-            if(temp.size()!=0)
-                st.push(temp);
+            else
+                temp=temp+s[i];
+            i++;
         }
-        string res="";
+        if(temp.size())
+            st.push(temp);
         while(!st.empty()){
-            res=res+st.top();
+            out=out+st.top();
+            if(st.size()>1)
+                out=out+" ";
             st.pop();
-            if(st.size())
-                res=res+" ";
         }
-        return res;
-    }
-};
+        return out;
+}
 
 
 // Method 2 - Using temp string
