@@ -27,7 +27,11 @@
         
 #### 8. Add 'n' number of char ch in the string at 'i' index.        
         s.insert(s.begin()+i,n,ch);
-        
+
+#### 9. Converting INT to CHAR
+        int x=4;
+        char ch=x+'0';
+        cout<<ch<<endl; Output: 4 -> but now this is character not integer.
         
 ### Folder - A
 
