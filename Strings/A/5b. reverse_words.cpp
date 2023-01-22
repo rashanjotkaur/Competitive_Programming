@@ -25,7 +25,7 @@ string reverseWords(string s) {
             st.push(temp);
         while(!st.empty()){
             out=out+st.top();
-            if(st.size()>1)
+            if(st.size())
                 out=out+" ";
             st.pop();
         }
