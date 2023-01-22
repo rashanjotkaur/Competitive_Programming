@@ -31,8 +31,19 @@
 #### 9. Converting INT to CHAR
         int x=4;
         char ch=x+'0';
-        cout<<ch<<endl; Output: 4 -> but now this is character not integer.
+        cout<<ch<<endl; 
+        Output: 4 -> but now this is character not integer.
+
+#### 10. Typecasting
+        int N = 103;
+        cout<<(char)(N)<<endl;  
+        Output: g  --> (char 'a' - 97) 
+
+##### 11. For taking input of strings with more than one word.
+        cin.ignore();
+        getline(cin,s);
         
+
 ### Folder - A
 
 #### 0. Valid Palindrome
@@ -66,7 +77,25 @@
         
 #### 8. Convert a Sentence into its Equivalent Mobile Numeric Keypad Sequence
         https://www.geeksforgeeks.org/convert-sentence-equivalent-mobile-numeric-keypad-sequence/
+
+#### 9. Print all the duplicates in the input string
+        https://www.geeksforgeeks.org/print-all-the-duplicates-in-the-input-string/
+        https://takeuforward.org/data-structure/print-all-the-duplicates-in-the-string/
+
+
+### Folder - Standard Problems_I
+
+#### 0. Longest Substring Without Repeating Characters
+        https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
         
+#### 1. Longest Repeating Character Replacement - Tricky - Sliding Window
+        https://leetcode.com/problems/longest-repeating-character-replacement/
+        https://practice.geeksforgeeks.org/problems/longest-repeating-character-replacement/1
+        https://practice.geeksforgeeks.org/problems/maximum-sub-string-after-at-most-k-changes3220/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+        
+#### 2. Group Anagrams - Tricky 
+        https://leetcode.com/problems/group-anagrams/
+
         
 ### Folder - Dynamic Programming
 
