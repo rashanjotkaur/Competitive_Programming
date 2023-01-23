@@ -1,6 +1,7 @@
 // Minimize the maximum difference between the heights
 // Link - https://www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/
 // https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1
+// Video Link - https://www.youtube.com/watch?v=Av7vSnPSCtw
 
 // Method 1 - Tricky and Hard
 // Approach: Two Elements ke beech main minimum diff kbb hoga, when they are sorted, x+1 is just greater than x.
