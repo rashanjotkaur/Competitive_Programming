@@ -160,7 +160,10 @@
         https://practice.geeksforgeeks.org/problems/save-your-life4601/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
         
 #### 2d. Count Subarrays with Sum Equals K
-        https://leetcode.com/problems/subarray-sum-equals-k/description/        
+        https://leetcode.com/problems/subarray-sum-equals-k/description/     
+        
+#### 3. Sliding Window Maximum - Maximum of all Subarrays of Size k. (HARD) (DEQUE)
+        https://leetcode.com/problems/sliding-window-maximum/        
 
         
 ## Folder - Standard Problems_III
