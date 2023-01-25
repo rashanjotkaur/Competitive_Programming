@@ -20,4 +20,7 @@
 #### 1. (HARD)Minimize the maximum difference between the heights
         https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1
         
-#### 2.         
+#### 2. Activity Selection Problem
+        https://practice.geeksforgeeks.org/problems/activity-selection-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+        
+#### 3.         
