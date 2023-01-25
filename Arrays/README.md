@@ -36,6 +36,10 @@
 #### 0. Range Sum Query
         https://leetcode.com/problems/range-sum-query-immutable/
 
+#### 1. Find all Pairs possible from the given Array
+        https://www.geeksforgeeks.org/find-all-pairs-possible-from-the-given-array/
+      
+      
 
 ## Folder - Duplicate Element Problems
 #### 0. If Duplicate Exists
@@ -140,6 +144,9 @@
         
 #### 0b. Length of Subarray with Maximum Sum
         https://www.geeksforgeeks.org/size-subarray-maximum-sum/  
+        
+#### 0c. Subarray Product Less Than K
+        https://leetcode.com/problems/subarray-product-less-than-k/
         
 #### 1. Subarray with Given Sum - Positve integers only - No Negative Numbers
         https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1/#
