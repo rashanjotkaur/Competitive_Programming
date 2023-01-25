@@ -1,6 +1,7 @@
 // In case of one array only.
 // Maximize this expression: |arr[i]-arr[j]|+|i-j|
 // Link: https://www.geeksforgeeks.org/maximum-absolute-difference-value-index-sums/
+// Prblem Link - https://www.interviewbit.com/problems/maximum-absolute-difference/
 
 #include <bits/stdc++.h>
 using namespace std;
