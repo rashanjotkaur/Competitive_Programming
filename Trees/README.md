@@ -70,7 +70,10 @@
 
 
 ### Folder - C
-#### 0. Check if a given tree is Sum Tree **(Method 2 - Tricky)
+#### 0a. Children Sum Parent -> Checking if (root = leftNode + rightNode)
+        https://www.geeksforgeeks.org/check-for-children-sum-property-in-a-binary-tree/
+        
+#### 0b. Check if a given tree is Sum Tree **(Method 2 - Tricky) -> Checking if (root = leftTree + rightTree)
         https://practice.geeksforgeeks.org/problems/sum-tree/1
          
 #### 1. All paths in a Binary Tree
