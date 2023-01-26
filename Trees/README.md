@@ -103,6 +103,9 @@
 
 #### 7c. Count Node at given distance k from leaf node
         https://practice.geeksforgeeks.org/problems/node-at-distance/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+         
+#### 7d. All Nodes at a distance k from target node  -  HARD
+        https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
         
 #### 8. Number of turns to reach from one node to other in binary tree
         https://practice.geeksforgeeks.org/problems/number-of-turns-in-binary-tree/1
