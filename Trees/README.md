@@ -70,6 +70,9 @@
 
 
 ### Folder - C
+#### 0. Check if a given tree is Sum Tree **(Method 2 - Tricky)
+        https://practice.geeksforgeeks.org/problems/sum-tree/1
+         
 #### 1. All paths in a Binary Tree
         https://leetcode.com/problems/binary-tree-paths/
          
@@ -97,9 +100,6 @@
          
 #### 9. Binary Tree Coloring Game *** (Hard)
         https://leetcode.com/problems/binary-tree-coloring-game/
-           
-#### 10. Check if a given tree is Sum Tree **(Method 2 - Tricky)
-         https://practice.geeksforgeeks.org/problems/sum-tree/1
 
 
 
