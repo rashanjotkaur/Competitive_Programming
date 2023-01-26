@@ -1,25 +1,28 @@
 // https://practice.geeksforgeeks.org/problems/sum-tree/1#
 
-
-// Method 1;
-int sum(struct Node *root,bool &ans){
-    if(root==NULL)
-        return 0;
-    if(root->left==NULL && root->right==NULL)
-        return root->data;
-    int l=sum(root->left,ans);
-    int r=sum(root->right,ans);
-    if(l+r!=root->data)
-        ans=false;
-    return l+r+root->data;
-}
-bool isSumTree(Node* root){
-     bool ans=true;
-     sum(root,ans);
-     return ans;
-}
-
 // Method 2-BEST APPROACH
+// Func 1:
+bool isSumTree(Node* root){
+        if(root==NULL || (root->left==NULL && root->right==NULL))
+            return true;
+
+        int ls = sum(root->left);
+        int rs = sum(root->right);
+        
+        return ((root->data==ls+rs) && isSumTree(root->left) && isSumTree(root->right));
+}
+// Func 2:
+int sum(struct Node *root){
+        if(root == NULL)
+            return 0;
+         
+        return sum(root->left) + root->data + sum(root->right);
+}
+    
+
+// OR
+
+
 // Why l=2*(root->left->data)?
 // If the node is not a leaf node then the sum of the subtree rooted with this node is twice the value of this node 
 // (Assuming that the tree rooted with this node is SumTree).
@@ -51,3 +54,24 @@ bool isSumTree(Node* root){
     }
     return false;
 }
+
+
+// Method 1;
+int sum(struct Node *root,bool &ans){
+    if(root==NULL)
+        return 0;
+    if(root->left==NULL && root->right==NULL)
+        return root->data;
+    int l=sum(root->left,ans);
+    int r=sum(root->right,ans);
+    if(l+r!=root->data)
+        ans=false;
+    return l+r+root->data;
+}
+bool isSumTree(Node* root){
+     bool ans=true;
+     sum(root,ans);
+     return ans;
+}
+
+
