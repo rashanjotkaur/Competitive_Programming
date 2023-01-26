@@ -148,6 +148,9 @@
 #### 0c. Subarray Product Less Than K
         https://leetcode.com/problems/subarray-product-less-than-k/
         
+#### 0c. Count Subarrays With Score Less Than K - Variation of above question
+        https://leetcode.com/problems/count-subarrays-with-score-less-than-k/
+        
 #### 1. Subarray with Given Sum - Positve integers only - No Negative Numbers
         https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1/#
         
