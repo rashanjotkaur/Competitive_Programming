@@ -1,5 +1,6 @@
 # Array Problems
 
+
 ## Folder - A
 #### 0. Add one in Array
         https://leetcode.com/problems/plus-one/
@@ -37,8 +38,7 @@
         https://leetcode.com/problems/range-sum-query-immutable/
 
 #### 1. Find all Pairs possible from the given Array
-        https://www.geeksforgeeks.org/find-all-pairs-possible-from-the-given-array/
-      
+        https://www.geeksforgeeks.org/find-all-pairs-possible-from-the-given-array/        
       
 
 ## Folder - Duplicate Element Problems
