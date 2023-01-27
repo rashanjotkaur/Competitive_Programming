@@ -1,8 +1,6 @@
 # Tree Problems
 ### (*) - Easy but no able to Remember
 
-
-
 ### Folder - A
 #### 1. Count all nodes of a Tree
         https://leetcode.com/problems/count-complete-tree-nodes/
@@ -107,7 +105,7 @@
 #### 7d. All Nodes at a distance k from target node  -  HARD
         https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
         
-#### 8. Number of turns to reach from one node to other in binary tree
+#### 8. Number of turns to reach from one node to other in binary tree - Remember
         https://practice.geeksforgeeks.org/problems/number-of-turns-in-binary-tree/1
          
 #### 9. Binary Tree Coloring Game *** (Hard)
