@@ -129,10 +129,10 @@
 #### 4. Children Sum Parent
         https://practice.geeksforgeeks.org/problems/children-sum-parent/1
         
-#### 5. Max Path Sum I - Hard
+#### 6a. Max Path Sum Between 2 Leaf Nodes - Hard
         https://practice.geeksforgeeks.org/problems/maximum-path-sum/1/#
         
-#### 6. Max Path Sum II - Hard
+#### 6b. Max Path Sum - max({root->data,l+root->data,r+root->data,l+r+root->data}) - Hard 
         https://leetcode.com/problems/binary-tree-maximum-path-sum/
         
 #### 7a. Maximum Width of Binary Tree - (Just find the max nodes present at each level) - EASY 
