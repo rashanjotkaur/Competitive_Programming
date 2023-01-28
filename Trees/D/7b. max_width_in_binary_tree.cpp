@@ -1,5 +1,6 @@
 // Maximum Width of Binary Tree
 // Video Link: https://www.youtube.com/watch?v=ZbybYvcVLks
+// Striver Solution: https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/
 // Problem Link: https://leetcode.com/problems/maximum-width-of-binary-tree/
 
 // Method 2: To overcome the overflow -> reduce the minimum value of index
