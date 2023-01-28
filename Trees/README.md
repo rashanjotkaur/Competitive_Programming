@@ -114,6 +114,9 @@
 
 
 ### Folder - D
+#### 0. Find distance from root to given node in a binary tree
+        https://www.geeksforgeeks.org/find-distance-root-given-node-binary-tree/
+
 #### 1. Balanced Binary Tree
         https://leetcode.com/problems/balanced-binary-tree/
 
@@ -132,6 +135,12 @@
 #### 6. Max Path Sum II - Hard
         https://leetcode.com/problems/binary-tree-maximum-path-sum/
         
-
+#### 7a. Maximum Width of Binary Tree - (Just find the max nodes present at each level) - EASY 
+        https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/
+        
+#### 7b. Maximum Width of Binary Tree - (We have to find max nodes that can be possible at each level) - HARD
+        https://leetcode.com/problems/maximum-width-of-binary-tree/
+        
+        
         
     
