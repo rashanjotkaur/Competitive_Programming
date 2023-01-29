@@ -2,7 +2,7 @@
 
 Watch Aditya Verma Stack Playlist
 
-#### 1. Nearest Greater Element to Right(Next Largest Element)
+#### 0. Nearest Greater Element to Right(Next Greater Element)(Next Largest Element)
         https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1/#
 
 #### 2. Nearest Greater Element to Right if array is Circular
