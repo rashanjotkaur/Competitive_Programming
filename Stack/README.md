@@ -1,9 +1,12 @@
-# Stack Questions
+### Stack Questions
 
 Watch Aditya Verma Stack Playlist
 
+### Folder - Standard_Problems_I
 #### 0. Nearest Greater Element to Right(Next Greater Element)(Next Largest Element)
         https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1/#
+
+
 
 #### 2. Nearest Greater Element to Right if array is Circular
         https://leetcode.com/problems/next-greater-element-ii/
