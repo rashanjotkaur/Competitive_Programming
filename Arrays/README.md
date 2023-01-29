@@ -38,7 +38,10 @@
         https://leetcode.com/problems/range-sum-query-immutable/
 
 #### 1. Find all Pairs possible from the given Array
-        https://www.geeksforgeeks.org/find-all-pairs-possible-from-the-given-array/        
+        https://www.geeksforgeeks.org/find-all-pairs-possible-from-the-given-array/  
+        
+#### 2. Minimum Difference among K
+        https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/        
       
 
 ## Folder - Duplicate Element Problems
