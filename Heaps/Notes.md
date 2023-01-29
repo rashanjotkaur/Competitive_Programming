@@ -1,8 +1,8 @@
-### Heaps
+### Heap Notes
 
 ### Helpful Links:
     1. https://www.hackerearth.com/practice/notes/heaps-and-priority-queues/#:~:text=It%20will%20take%20O(log,queue%20and%20min%20-%20priority%20queue.
-    
+    2. https://www.geeksforgeeks.org/heap-data-structure/
     
 
 #### 1. What is Heap? - Book Page 550
