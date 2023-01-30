@@ -60,7 +60,7 @@ https://www.fullstack.cafe/blog/sorting-algorithms-interview-questions
             1. It is very slow and runs in O(n2) time in worst as well as average case. Because of that Bubble sort does not deal well 
                with a large set of data. For example, Bubble sort is three times slower than Quicksort even for n = 100.
 
-#### 7. How does Insertion Sort works?
+#### 7a. How does Insertion Sort works?
         1. Insertion Sort is an in-place, stable, comparison-based sorting algorithm. 
         2. The idea is to maintain a sub-list which is always sorted. 
         3. An element which is to be 'insert'ed in this sorted sub-list, has to find its appropriate place and then it has to be inserted there. 
@@ -76,6 +76,19 @@ https://www.fullstack.cafe/blog/sorting-algorithms-interview-questions
         6. Insertion sort runs in O(n2) in its worst and average cases. It runs in O(n) time in its best case.
         7. Space complexity is O(1) because an extra variable key is used (as a temp variable for insertion).
         
+#### 7b. Why is insertion sort called online sort or online algorithm?
+        - Insertion sort, by contrast, is online because it does not need to know anything about what values it will sort and the information is requested 
+          WHILE the algorithm is running. Simply put, it can grab new values at every iteration.
+
+### Important
+####    What does it mean for a sorting algorithm to be online?
+        - An online sorting algorithm is one that will work if the elements to be sorted are provided one at a time with the understanding 
+          that the algorithm must keep the sequence sorted as more and more elements are added in.
+
+####    What is online vs offline algorithm?
+        - An offline algorithm knows all about its input data the moment it is invoked. 
+        - An online algorithm, on the other hand, can get parts or all of its input data while it is running.
+
 #### 8. How does Quick Sort works?
         1. Quick Sort is capable of sorting a list of data elements significantly faster (twice or thrice faster) than any of the common sorting algorithms. 
         2. It is one of the most efficient sorting algorithms.
@@ -120,4 +133,12 @@ https://www.fullstack.cafe/blog/sorting-algorithms-interview-questions
         9. If data has to be sorted on disk, you really, really want to use some variation of mergesort.
 
 
+#### 12. Why isn't heapsort stable?
+         - Heapsort is not stable because operations on the heap can change the relative order of equal items. 
+         - Consider array 21 20a 20b 12 11 8
+               - Here 20a = 20b just to differentiate the order we represent them as 20a and 20b.
+               - While heapsort first 21 is removed and placed in the last index then 20a is removed and placed in last but one index and 
+                 20b in the last but two  index so after heap sort the array looks like.
+               - After Sorting: 7 8 11 12 20b 20a 21.
+               - It does not preserve the order of elements and hence can't be stable.
       
