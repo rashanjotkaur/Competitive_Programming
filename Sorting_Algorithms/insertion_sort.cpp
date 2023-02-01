@@ -1,5 +1,20 @@
 // https://practice.geeksforgeeks.org/problems/insertion-sort/1/
 
+// Method 1:
+void insertionSort(int arr[], int n){
+    for(int j=1;j<n;j++){
+        int curr=arr[j];
+        int i=j-1;
+        while(i>=0 && curr<arr[i]){
+            arr[i+1]=arr[i]; // Shift the greater elements by 1 
+            i--;
+        }
+        arr[i+1]=curr;
+    }
+}
+
+
+// Method 2:
 #include <bits/stdc++.h>
 using namespace std;
 
