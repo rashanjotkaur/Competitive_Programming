@@ -13,6 +13,9 @@
         
 #### 2. Delete Element in Heap
         Go through Notes
+        
+#### 3. Min Heap Operations
+        https://www.codingninjas.com/codestudio/problems/min-heap_4691801?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=0
 
 
 ### Folder - (Heaps And Priority Queue - Standard_Problems_1)
@@ -27,3 +30,7 @@
 
 #### 1. Top K Frequent Elements
         https://leetcode.com/problems/top-k-frequent-elements/
+
+#### 2. K Sum Combinations
+        https://www.interviewbit.com/problems/maximum-sum-combinations/
+        
