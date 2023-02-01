@@ -61,9 +61,10 @@ https://www.fullstack.cafe/blog/sorting-algorithms-interview-questions
                with a large set of data. For example, Bubble sort is three times slower than Quicksort even for n = 100.
 
 #### 7a. How does Insertion Sort works?
-        1. Insertion Sort is an in-place, stable, comparison-based sorting algorithm. 
-        2. The idea is to maintain a sub-list which is always sorted. 
-        3. An element which is to be 'insert'ed in this sorted sub-list, has to find its appropriate place and then it has to be inserted there. 
+         - Insertion Sort is an in-place, stable, comparison-based sorting algorithm. 
+         - Insert an element from unsorted array to its correct position in sorted array.
+         - The idea is to maintain a sub-list which is always sorted. 
+         - An element which is to be 'inserted' in this sorted sub-list, has to find its appropriate place and then it has to be inserted there. 
            Hence the name, insertion sort.
         4. Steps:
               If it is the first element, it is already sorted.
@@ -142,3 +143,5 @@ https://www.fullstack.cafe/blog/sorting-algorithms-interview-questions
                - After Sorting: 7 8 11 12 20b 20a 21.
                - It does not preserve the order of elements and hence can't be stable.
       
+
+#### 13. 
