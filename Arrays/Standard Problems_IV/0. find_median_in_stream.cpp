@@ -2,9 +2,12 @@
 // https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
 // Problem Link: https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
 // Problem Link: https://leetcode.com/problems/find-median-from-data-stream/
+// Problem Link: https://www.codingninjas.com/codestudio/problems/running-median_625409?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+
+// Method 2: Using Priority Queue (Min & Max Heaps)
 
 
-// Method: Using Insertion Sort:
+// Method 1: Using Insertion Sort:
 // 1. If we can sort the data as it appears, we can easily locate the median element. 
 // 2. Insertion Sort is one such online algorithm that sorts the data appeared so far. At any instance of sorting, say after sorting i-th element, 
 //    the first i elements of the array are sorted. 
