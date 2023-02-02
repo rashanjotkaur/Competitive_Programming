@@ -34,3 +34,7 @@
 #### 2. K Sum Combinations
         https://www.interviewbit.com/problems/maximum-sum-combinations/
         
+#### 3. Find Median from Data Stream
+        https://leetcode.com/problems/find-median-from-data-stream/
+        
+#### 4.         
