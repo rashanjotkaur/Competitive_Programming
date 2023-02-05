@@ -35,6 +35,19 @@
         https://www.interviewbit.com/problems/maximum-sum-combinations/
         
 #### 3. Find Median from Data Stream
+        https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1
         https://leetcode.com/problems/find-median-from-data-stream/
         
-#### 4.         
+#### 4. Sort a nearly sorted (or K sorted) array - HARD
+        https://practice.geeksforgeeks.org/problems/nearly-sorted-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+               
+#### 5. Merge K sorted arrays
+        https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+        
+#### 6. K Weakest Rows in a Matrix    
+        https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
+        
+#### 7. Largest Number After Digit Swaps by Parity
+        https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/
+        
+#### 8.        
