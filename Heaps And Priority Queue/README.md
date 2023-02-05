@@ -18,7 +18,7 @@
         https://www.codingninjas.com/codestudio/problems/min-heap_4691801?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=0
 
 
-### Folder - (Heaps And Priority Queue - Standard_Problems_1)
+### Folder - (Heaps And Priority Queue - Standard_Problems_I)
 #### 0a. Kth Largest Element in Array
         https://leetcode.com/problems/kth-largest-element-in-an-array/description/
 
@@ -52,3 +52,12 @@
         
 #### 8. Last Stone Weight
         https://leetcode.com/problems/last-stone-weight/   
+        
+#### 9. Minimum Platforms
+        https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
+        
+
+### Folder - (Heaps And Priority Queue - Standard_Problems_II)
+#### 0. 
+        
+        
