@@ -43,4 +43,3 @@ vector <int> nearlySorted(int arr[], int n, int k){
             res.push_back(arr[i]);
         return res;
 }
-
