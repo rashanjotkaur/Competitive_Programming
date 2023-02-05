@@ -1,6 +1,11 @@
 // https://www.geeksforgeeks.org/nearly-sorted-algorithm/
 // Problem Link: https://practice.geeksforgeeks.org/problems/nearly-sorted-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
 
+// There are 3 methods:
+// 1. Insertion Sort gives TLE
+// 2. Using MinHeap or Priority Queue: Good Preference
+// 3. Using QuickSort: Hard to Understand
+
 // Method 1: Using priority queue to store k elements
 // Approach: 
 // 1. Create a Min Heap of size K+1 with the first K+1 elements. 
