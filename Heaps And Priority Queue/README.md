@@ -58,6 +58,10 @@
         
 
 ### Folder - (Heaps And Priority Queue - Standard_Problems_II)
-#### 0. 
+#### 0. Maximum Product of Two Elements in an Array
+        https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+        
+#### 1. Find Subsequence of Length K With the Largest Sum
+        https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/        
         
         
