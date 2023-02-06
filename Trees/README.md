@@ -53,15 +53,6 @@
 #### 6. Deepest Leaf Nodes Sum
         https://leetcode.com/problems/deepest-leaves-sum/
          
-#### 7. Right View
-        https://leetcode.com/problems/binary-tree-right-side-view/
-         
-#### 8. Left View
-        https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1#
-         
-#### 9. Bottom View 
-        https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
-         
 #### 10. Cousins in a Binary Tree
          https://leetcode.com/problems/cousins-in-binary-tree/
 
@@ -82,9 +73,6 @@
          
 #### 3. Count all Good Nodes
         https://leetcode.com/problems/count-good-nodes-in-binary-tree/
-
-#### 4. Find Bottom Left Value of Tree
-        https://leetcode.com/problems/find-bottom-left-tree-value/
          
 #### 5. Lowest Common Ancestor
         https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
@@ -141,6 +129,18 @@
 #### 7b. Maximum Width of Binary Tree - (We have to find max nodes that can be possible at each level) - HARD
         https://leetcode.com/problems/maximum-width-of-binary-tree/
         
+ 
+### Folder - Binary Tree Views
+#### 0. Left View of Binary Tree
+        https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1#
         
+#### 1. Right View of Binary Tree
+        https://leetcode.com/problems/binary-tree-right-side-view/
+
+#### 2. Bottom View of Binary Tree
+        https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
+
+#### 3. Find Bottom Left Tree Value
+        https://leetcode.com/problems/find-bottom-left-tree-value/description/
         
     
