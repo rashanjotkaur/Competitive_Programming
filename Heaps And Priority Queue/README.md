@@ -64,4 +64,8 @@
 #### 1. Find Subsequence of Length K With the Largest Sum
         https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/        
         
+#### 2. K Maximum Sum Combination
+        https://www.interviewbit.com/problems/maximum-sum-combinations/
+        https://practice.geeksforgeeks.org/problems/maximum-sum-combination/1
         
+#### 3.         
