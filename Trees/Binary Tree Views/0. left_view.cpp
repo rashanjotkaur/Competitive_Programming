@@ -22,6 +22,7 @@ vector <int> leftView(Node *root){
 }
 
 
+
 // Method 1: Level Order Traversal
 vector <int> leftView(Node *root){
     vector <int> res;
@@ -41,5 +42,35 @@ vector <int> leftView(Node *root){
                 q.push(temp->right);
         }
     }
+    return res;
+}
+
+// OR
+
+// Method 1 - Same as above, we are using NULL as delimiter
+// Iterative Method using queue
+vector <int> leftView(Node *root){
+    vector <int> res;
+    if(root==NULL) 
+        return res; 
+        
+    queue <Node*> q;
+    q.push(root); 
+    q.push(NULL);       // Delimiter
+    while(!q.empty()) { 
+        res.push_back(q.front()->data);
+        while(q.front()!=NULL){
+            struct Node* temp=q.front();
+            q.pop(); 
+            if (temp->left) 
+                q.push(temp->left); 
+            if (temp->right) 
+                q.push(temp->right); 
+        } 
+        q.pop();
+        if(q.empty())
+            break;
+        q.push(NULL); 
+    } 
     return res;
 }
