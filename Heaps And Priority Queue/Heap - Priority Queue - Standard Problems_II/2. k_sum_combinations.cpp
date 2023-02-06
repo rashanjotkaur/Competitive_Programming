@@ -2,6 +2,7 @@
 // https://practice.geeksforgeeks.org/problems/maximum-sum-combination/1
 // https://www.interviewbit.com/problems/maximum-sum-combinations/
 
+// Method 2: Using Priority Queue
 typedef pair<int,int> pi;
 typedef pair<int,pi> ppi;
 vector <int> maxCombinations(int n, int k, vector <int> &A, vector <int> &B) {
@@ -32,5 +33,26 @@ vector <int> maxCombinations(int n, int k, vector <int> &A, vector <int> &B) {
                 s.insert(temp);
             }
         }
+        return res;
+}
+
+
+// Method 1: Brute Solution
+vector <int> maxCombinations(int n, int k, vector<int> &A, vector<int> &B) {
+        priority_queue <int,vector<int>,greater<int>> pq;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                int sum=A[i]+B[j];
+                pq.push(sum);
+                if(pq.size()>k)
+                    pq.pop();
+            }
+        }
+        vector <int> res;
+        while(!pq.empty()){
+            res.push_back(pq.top());
+            pq.pop();
+        }
+        reverse(res.begin(),res.end());
         return res;
 }
