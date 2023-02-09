@@ -1,7 +1,9 @@
 // Bottom View of Binary Tree
 // Problem Link: https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
 
-// Note: We can do this with RECURSION also, but it is given that we have to do it by LEVEL ORDER TRAVERSAL ONLY.
+// Note: 
+// We can do this with RECURSION also, but it is given that "If there are multiple bottom-most nodes for a horizontal distance from root,
+// then print the later one in level traversal." Hence, we are doing it with LEVEL ORDER TRAVERSAL.
 
 vector <int> bottomView(Node *root) {
         vector <int> res;
