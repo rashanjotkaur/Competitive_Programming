@@ -145,3 +145,6 @@
         
 #### 4. Vertical order traversal of Binary Tree using Map
         https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/    
+
+#### 5. Top View of Binary Tree
+        https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1
