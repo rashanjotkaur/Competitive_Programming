@@ -1,6 +1,24 @@
 // Max Sum without Adjacents
 // Problem Link: https://practice.geeksforgeeks.org/problems/7a33c749a79327b2889d420dd80342fff33aac6d/1
 
+// Method 4: Tabulation - DP solution with Space Optimization
+int findMaxSum(int *arr, int n) {
+	    vector <int> dp(n,0);
+	    if(n==1)
+	        return arr[0];
+	    int prev2=arr[0];
+	    int prev1=max(arr[0],arr[1]);
+	    for(int i=2;i<n;i++){
+	        int pick=arr[i]+prev2;
+	        int noPick=0+prev1;
+	        int curr=max(pick,noPick);
+	        prev2=prev1;
+	        prev1=curr;
+	    }
+	    return prev1;
+}
+
+
 // Method 3: Tabulation - DP
 int findMaxSum(int *arr, int n) {
 	    vector <int> dp(n,0);
@@ -13,6 +31,7 @@ int findMaxSum(int *arr, int n) {
 	    }
 	    return dp[n-1];
 }
+
 
 // Method 2: Memoization - While doing recursion, we are storing the values
 int findMax(int arr[], int idx, vector <int> &dp){
