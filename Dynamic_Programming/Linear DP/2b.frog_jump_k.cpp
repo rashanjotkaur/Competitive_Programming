@@ -1,5 +1,6 @@
 // Problem: In this question, frog is allowed to jump till k indexes
 //          i.e i+1, i+2, i+3.....i+k -> We are allowed to jump k indexes. Then what is going to be the minimum energy required.
+// https://takeuforward.org/data-structure/dynamic-programming-frog-jump-with-k-distances-dp-4/
 
 // Input: 
 // 3
