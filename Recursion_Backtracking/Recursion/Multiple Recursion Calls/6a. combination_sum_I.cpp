@@ -1,7 +1,9 @@
-// Combination Sum
+// Combination Sum I
 // Problem Link: https://leetcode.com/problems/combination-sum/description/
 // Problem Link: https://practice.geeksforgeeks.org/problems/combination-sum-1587115620/1
 // https://www.geeksforgeeks.org/combinational-sum/
+
+// We can use each element any number of times. 
 
 // Method 3: Best Approach 
 // 1. Since, we can use each element any number of times. 
