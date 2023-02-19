@@ -15,20 +15,23 @@ bool printSubsequence(int arr[], int i, int n, int currSum, int sum, vector <int
     res.push_back(arr[i]);
     if(printSubsequence(arr,i+1,n,currSum,sum,res))
         return true;
+        
     currSum=currSum-arr[i];
     res.pop_back();
-    printSubsequence(arr,i+1,n,currSum,sum,res);
+    if(printSubsequence(arr,i+1,n,currSum,sum,res))
+        return true;
+    return false;
 }
 
 int main() {
     int n,target;
     cin>>n>>target;
     int arr[n];
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
-    vector <int> res;
-    printSubsequence(arr,0,n,0,target,res);
-    for(auto x:res)
-        cout<<x<<" ";
-    return 0;
+	for(int i=0;i<n;i++)
+	    cin>>arr[i];
+	vector <int> res;
+	printSubsequence(arr,0,n,0,target,res);
+	for(auto x:res)
+	    cout<<x<<" ";
+	return 0;
 }
