@@ -1,6 +1,7 @@
 // Combination Sum II
 // https://leetcode.com/problems/combination-sum-ii/description/
 
+// Each number in vector can only be used once in the combination.
 
 // Method 2: Best Approach
 // 1. First Sort the array as we need to skip the same elements - so that recursion shouldn't be used in these cases.
