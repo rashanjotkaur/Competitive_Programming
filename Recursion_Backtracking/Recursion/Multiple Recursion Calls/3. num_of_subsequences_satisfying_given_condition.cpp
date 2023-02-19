@@ -2,8 +2,27 @@
 // Problem Link: https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/
 
 // Method 2: Using two pointer
-
-
+// #define mod 1000000007;
+int numSubseq(vector <int> &nums, int target) {
+        long long mod=1e9+7;
+        int n=nums.size();
+        vector <int> count(n+1);
+        count[0]=1;
+        for(int i=1;i<=n;i++)
+            count[i]=(count[i-1]*2)%mod;
+        sort(nums.begin(),nums.end());
+        int l=0,r=n-1;
+        int res=0;
+        while(l<=r){
+            if(nums[l]+nums[r]<=target){
+                res=(res+count[r-l])%mod;
+                l++;
+            }
+            else
+                r--;
+        }
+        return res;
+}
 
 // Method 1: Using Recursion: Trying all the possible ways to find the sequences.  - Gives TLE
 #define mod 1000000007;
