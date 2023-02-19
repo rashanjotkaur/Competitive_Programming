@@ -25,4 +25,9 @@
 #### 5. Number of Subsequences That Satisfy the Given Sum Condition - Tricky
         https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/    
         
+#### 6a. Combination Sum I - One element can be taken more than once. - Tricky
+        https://practice.geeksforgeeks.org/problems/combination-sum-1587115620/1
+        https://leetcode.com/problems/combination-sum/description/
         
+#### 6b. Combination Sum II - One element can't be used more than once.
+        https://leetcode.com/problems/combination-sum-ii/description/
