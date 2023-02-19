@@ -1,7 +1,6 @@
 // Find all subsequences with sum equals to K
 // https://www.geeksforgeeks.org/find-all-subsequences-with-sum-equals-to-k/
 
-
 // Testcases
 // n k
 // 3 3
@@ -12,9 +11,55 @@
 // 5 12 3 17 1 18 15 3 17
 
 
+// Method 2: 
+// For only positive integers array.
+// To avoid more recursions, we can use this condition.
+// if(currSum>sum)
+//     return ;
+
 #include <bits/stdc++.h>
 using namespace std;
+set <vector<int>> res;
 
+void findAllSubsequences(int arr[],int i, int n, vector <int> out,int currSum, int sum){
+        // For only positive integers array.
+        // To avoid more recursions, we can use this condition.
+        if(currSum>sum)
+            return ;
+        if(i==n){
+            if(currSum==sum)
+                res.insert(out);
+            return;
+        }
+        currSum=currSum+arr[i];
+        out.push_back(arr[i]);
+        findAllSubsequences(arr,i+1,n,out,currSum,sum);
+        currSum=currSum-arr[i];
+        out.pop_back();
+        findAllSubsequences(arr,i+1,n,out,currSum,sum);
+}
+int main() {
+        int n,sum;
+        cin>>n>>sum;
+        int arr[n];
+        for(int i=0;i<n;i++)
+            cin>>arr[i];
+        vector <int> out;
+        int currSum=0;
+        findAllSubsequences(arr,0,n,out,currSum,sum);
+        for(auto x:res){
+            vector <int> temp=x;
+            for(auto y:temp)
+                cout<<y<<" ";
+            cout<<endl;
+        }
+        return 0;
+}
+
+
+// Method 1: Using Recursion - Trying all possible subsequences.
+#include <bits/stdc++.h>
+using namespace std;
 set <vector<int>> res;
 
 void findAllSubsequences(int arr[],int i, int n, vector <int> out,int currSum, int sum){
