@@ -31,3 +31,16 @@
         
 #### 6b. Combination Sum II - One element can't be used more than once.
         https://leetcode.com/problems/combination-sum-ii/description/
+
+#### 7a. Find all the subsets - Power Set
+        https://leetcode.com/problems/subsets/
+        
+#### 7b. Print sums of all subsets of a given set
+        https://practice.geeksforgeeks.org/problems/subset-sums2234/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+        
+#### 7c. Sum of the sums of all possible subsets
+        https://www.geeksforgeeks.org/sum-of-the-sums-of-all-possible-subsets/        
+        
+#### 8. Find all the subsets - duplicates are present in the array
+        https://leetcode.com/problems/subsets-ii/description/
+        
