@@ -2,27 +2,49 @@
 // Find the Power Set
 // Problem Link: https://leetcode.com/problems/subsets/
 
+// Method 2: Using Iterative Approach 
 // Func 1:
 vector<vector<int>> subsets(vector <int> &nums) {
         int n=nums.size();
         vector <vector<int>> res;
-        if(n==0)
-            return res;
         vector <int> op;
-        findPowerSet(nums,0,op,res);
+        findPowerSet(nums,0,n,op,res);
         return res;
 }
 // Func 2:
-void findPowerSet(vector <int> ip, int i, vector <int> op, vector <vector<int>> &res){
-        if(i==ip.size()){
+void findPowerSet(vector <int> ip, int i, int n, vector <int> op, vector <vector<int>> &res){
+        res.push_back(op);
+        if(i==n)
+            return;
+        
+        for(int j=i;j<n;j++){
+            op.push_back(ip[j]);
+            findPowerSet(ip,j+1,n,op,res);
+            op.pop_back();
+        }
+}
+    
+
+// Method 1: Using Recursion - By Picking and Not Picking
+// Func 1:
+vector<vector<int>> subsets(vector <int> &nums) {
+        int n=nums.size();
+        vector <vector<int>> res;
+        vector <int> op;
+        findPowerSet(nums,0,n,op,res);
+        return res;
+}
+// Func 2:
+void findPowerSet(vector <int> ip, int i, int n, vector <int> op, vector <vector<int>> &res){
+        if(i==n){
             res.push_back(op);
             return;
         }
-        // Case 1: Picking the element at index i
+    
         op.push_back(ip[i]);
-        findPowerSet(ip,i+1,op,res);
+        findPowerSet(ip,i+1,n,op,res);
         op.pop_back();
-        // Case 2: Not Picking the element at index i
-        findPowerSet(ip,i+1,op,res);     
+        findPowerSet(ip,i+1,n,op,res);
 }
+    
     
