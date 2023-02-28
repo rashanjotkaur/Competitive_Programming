@@ -44,3 +44,7 @@
 #### 8. Find all the subsets - duplicates are present in the array
         https://leetcode.com/problems/subsets-ii/description/
         
+#### 9. Permutations of a given string
+        https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article        
+        
+        
