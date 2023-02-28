@@ -6,7 +6,7 @@
 // 1. If the array is sorted then, using this approach subsets will stored in vector in sorted manner.
 // 2. We don't have to sort the res - vector.
 // Func 1:
-vector<vector<int>> subsets(vector <int> &nums) {
+vector <vector<int>> subsets(vector <int> &nums) {
         int n=nums.size();
         vector <vector<int>> res;
         vector <int> op;
