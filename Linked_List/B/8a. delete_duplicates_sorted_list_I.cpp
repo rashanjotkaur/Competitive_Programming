@@ -1,6 +1,22 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
 
-// Method 1-Using Pointers
+// Method 1 - Easy to Understand
+ListNode* deleteDuplicates(ListNode* head) {
+        if(head==NULL)
+            return NULL;
+        while(head && head->next && head->val==head->next->val)
+            head=head->next;
+        ListNode *temp=head;
+        while(temp && temp->next){
+            if(temp->val==temp->next->val)
+                temp->next=temp->next->next;
+            else    
+                temp=temp->next;
+        }
+        return head;
+}
+
+// Method 2-Using Pointers
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -27,7 +43,7 @@ public:
 };
 
 
-// Method 2 - Using Merge Sort
+// Method 3 - Using Merge Sort
 // Func 1 - deleteDuplicates
 ListNode* deleteDuplicates(ListNode* head) {
         if(head==NULL || head->next==NULL)
