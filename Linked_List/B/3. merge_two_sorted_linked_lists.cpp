@@ -1,6 +1,45 @@
 // https://leetcode.com/problems/merge-two-sorted-lists/
 // https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1#
 
+// Method - By comparing two lists - Easy to Understand
+// Func 1:
+ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+        ListNode *list=NULL;
+        list=newNode(-101);
+        ListNode *temp=list;
+        while(list1 && list2){
+            if(list1->val<list2->val){
+                temp->next=list1;
+                temp=temp->next;
+                list1=list1->next;
+            }
+            else{
+                temp->next=list2;
+                temp=temp->next;
+                list2=list2->next;
+            }
+        }
+        while(list1){
+            temp->next=list1;
+            temp=temp->next;
+            list1=list1->next;
+        }
+        while(list2){
+            temp->next=list2;
+            temp=temp->next;
+            list2=list2->next;
+        }
+        return list->next;
+}
+// Func 2:
+ListNode* newNode(int x){
+        ListNode *temp=new ListNode();
+        temp->val=x;
+        temp->next=NULL;
+        return temp;
+}
+
+
 // Recursive Function
 Node* sortedMerge(Node* a, Node* b){  
     Node *res=NULL;
