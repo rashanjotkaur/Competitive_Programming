@@ -1,6 +1,23 @@
 // https://leetcode.com/problems/find-pivot-index/
 
-// Method 1: Preferred 
+// Method 1: Preferred - Remember
+// Easy to cover all the corner cases with this without using too much If conditions.
+int pivotIndex(vector <int> &nums) {
+        int n=nums.size();
+        long long leftSum=0;
+        long long rightSum=0;
+        for(int i=0;i<n;i++)
+            rightSum+=nums[i];
+        for(int i=0;i<n;i++){
+            rightSum-=nums[i];
+            if(leftSum==rightSum)
+                return i;
+            leftSum+=nums[i];
+        }
+        return -1;
+}
+
+// Method 2: Using Left Sum & Right Sum at same time
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 class Solution {
@@ -47,7 +64,7 @@ public:
 };
 
 
-// Method 2: Using prefix and suffix array
+// Method 3: Using prefix and suffix array
 // Time Complexity: O(n)
 // Time Complexity: O(n)
 class Solution {
