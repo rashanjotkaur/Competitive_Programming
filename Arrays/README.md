@@ -135,8 +135,11 @@
         
 #### 8. Move Zeroes to the end of Array
         https://leetcode.com/problems/move-zeroes/
-         
-#### 9. 4_Sum
+
+#### 9a. 3_Sum
+        https://leetcode.com/problems/3sum/description/
+
+#### 9b. 4_Sum
         https://leetcode.com/problems/4sum/        
         
         
