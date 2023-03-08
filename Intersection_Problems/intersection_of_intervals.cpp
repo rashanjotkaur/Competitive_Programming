@@ -11,6 +11,55 @@
 // 1 6
 // 8 18
 
+// 2
+// 1 2
+// 2 6
+
+// Method: Without Sorting - Easy and Preferred
+// This method is similar to the method:
+// We used in "Interval List Intersections: https://leetcode.com/problems/interval-list-intersections/description/?envType=study-plan&id=algorithm-ii".
+#include <bits/stdc++.h>
+using namespace std;
+vector <int> intersection(int mat[][2], int n){
+    int x=INT_MIN;
+    int y=INT_MAX;
+    vector <int> res;
+    for(int i=0;i<n;i++){
+        x=max(x,mat[i][0]);
+        y=min(y,mat[i][1]);
+        if(x>y)
+            return res;
+    }
+    res.push_back(x);
+    res.push_back(y);
+    return res;
+}
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,x,y;
+	    cin>>n;
+	    int mat[n][2];
+	    for(int i=0;i<n;i++){
+	        cin>>x>>y;
+	        mat[i][0]=x;
+	        mat[i][1]=y;
+	    }
+	    vector <int> res;
+	    res=intersection(mat,n);
+	    if(res.size()==0)
+		cout<<"-1";
+	    for(auto x:res)
+		cout<<x<<" ";
+            cout<<endl;
+	}
+	return 0;
+}
+
+
+
+// Method 1: By Sorting
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -56,7 +105,7 @@ int main() {
 
 
 
-// Method 2 - Without Sorting - Preferred
+// Method 2 - Without Sorting
 #include <bits/stdc++.h>
 using namespace std;
 
