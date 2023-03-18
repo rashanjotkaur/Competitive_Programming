@@ -42,7 +42,9 @@
         
 #### 2. Minimum Difference among K
         https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/        
-      
+
+#### 3. Add Integer to Array
+        https://leetcode.com/problems/add-to-array-form-of-integer/description/
 
 ## Folder - Duplicate Element Problems
 #### 0. If Duplicate Exists
