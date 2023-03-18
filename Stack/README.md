@@ -5,6 +5,10 @@ Watch Aditya Verma Stack Playlist
 ### Folder - Standard_Problems_I
 #### 0. Nearest Greater Element to Right(Next Greater Element)(Next Largest Element)
         https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1/#
+        
+#### 0a. Daily Temperatures (Next greater temperature)
+        https://leetcode.com/problems/daily-temperatures/description/?envType=study-plan&id=programming-skills-ii
+
 
 
 
