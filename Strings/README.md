@@ -82,6 +82,12 @@
         https://www.geeksforgeeks.org/print-all-the-duplicates-in-the-input-string/
         https://takeuforward.org/data-structure/print-all-the-duplicates-in-the-string/
 
+### Folder - Medium
+
+#### 0. 
+
+#### 1. Multiply Strings
+        https://leetcode.com/problems/multiply-strings/description/
 
 ### Folder - Standard Problems_I
 
