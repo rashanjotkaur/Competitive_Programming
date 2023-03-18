@@ -84,7 +84,8 @@
 
 ### Folder - Medium
 
-#### 0. 
+#### 0. Backspace String Compare
+        https://leetcode.com/problems/backspace-string-compare/description/
 
 #### 1. Multiply Strings
         https://leetcode.com/problems/multiply-strings/description/
